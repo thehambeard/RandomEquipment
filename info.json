@@ -1,0 +1,12 @@
+{
+    "Id": "RandomEquipment",
+    "DisplayName": "RandomEquipment",
+    "Author": "Hambeard",
+    "Version": "1.0.0",
+    "ManagerVersion": "0.23.4",
+    "Requirements": [],
+    "AssemblyName": "RandomEquipment.dll",
+    "EntryMethod": "RandomEquipment.Main.Load",
+    "HomePage": "https://github.com/thehambeard/RandomEquipment/releases",
+    "Repository": "https://raw.githubusercontent.com/thehambeard/RandomEquipment/main/Repo.json"
+}
