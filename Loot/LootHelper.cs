@@ -32,7 +32,8 @@ namespace RandomEquipment.Loot
 
             foreach (var interactionLootPart in interactionLootParts)
             {
-                source.Add(interactionLootPart);
+                if(!interactionLootPart.IsViewed)
+                    source.Add(interactionLootPart);
             }
 
             var collection = source.Distinct<InteractionLootPart>((IEqualityComparer<InteractionLootPart>)new MassLootHelper.LootDuplicateCheck()).Select<InteractionLootPart, LootWrapper>((Func<InteractionLootPart, LootWrapper>)(i => new LootWrapper()
