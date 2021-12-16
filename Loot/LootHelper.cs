@@ -16,12 +16,16 @@ namespace RandomEquipment.Loot
 {
     public static class LootHelper
     {
+        public static HashSet<string> DenialList = new HashSet<string>()
+        {
+            
+        };
         public static IEnumerable<LootWrapper> GetContainersCurrentArea()
         {
             SetWrap.EnsureContainersChecked();
             var lootWrapperList = new List<LootWrapper>();
 
-            var interactionLootParts = Game.Instance.State.MapObjects
+            var interactionLootParts = Game.Instance.State.MapObjects.All
                 .Where<EntityDataBase>(e => e.IsInGame)
                 .Select<EntityDataBase, InteractionLootPart>(i => i.Get<InteractionLootPart>())
                 .Where<InteractionLootPart>(i => i?.Loot != Game.Instance.Player.SharedStash)
@@ -32,7 +36,7 @@ namespace RandomEquipment.Loot
 
             foreach (var interactionLootPart in interactionLootParts)
             {
-                if(!interactionLootPart.IsViewed)
+                if(!interactionLootPart.IsViewed && interactionLootPart.Settings.ItemRestriction.Guid == "")
                     source.Add(interactionLootPart);
             }
 

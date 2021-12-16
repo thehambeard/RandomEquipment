@@ -70,10 +70,17 @@ namespace RandomEquipment.Loot
                     GiveRandom(container, level + 1);
                 return;
             }
-            if(!SetWrap.ItemsGiven[Game.Instance.Player.GameId].Contains(blueprint))
-                SetWrap.ItemsGiven[Game.Instance.Player.GameId].Add(blueprint);
-            Mod.Debug($"Gave: {blueprint}");
-            container.InteractionLoot.Loot.Add(ResourcesLibrary.TryGetBlueprint<BlueprintItem>(blueprint));
+
+            var item = ResourcesLibrary.TryGetBlueprint<BlueprintItem>(blueprint).CreateEntity();
+
+            Mod.Debug(container.InteractionLoot.Source.name);
+            if (container.InteractionLoot.Settings.ItemRestriction.guid.IsNullOrEmpty())
+            {
+                if (!SetWrap.ItemsGiven[Game.Instance.Player.GameId].Contains(blueprint))
+                    SetWrap.ItemsGiven[Game.Instance.Player.GameId].Add(blueprint);
+                Mod.Debug($"Gave: {blueprint}");
+                container.InteractionLoot.Loot.Add(item);
+            }
         }
 
         public int CalculateLevel()
