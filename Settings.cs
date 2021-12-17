@@ -12,5 +12,7 @@ namespace RandomEquipment
         public string localizationFileName;
         public SerializableDictionary<string, HashSet<string>> containersChecked;
         public SerializableDictionary<string, HashSet<string>> itemsGiven;
+        public int regularChance;
+        public int lockedChance;
     }
 }

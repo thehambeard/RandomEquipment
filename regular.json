@@ -3634,38 +3634,6 @@
       "CR": 13,
       "Description": null
     },
-    "3cd7903030009ed4f985c25a0c6fcde3": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Delamere's Armor",
-      "File": "DelameresArmorItem.3cd7903030009ed4f985c25a0c6fcde3.json",
-      "Cost": 25000,
-      "CR": 9,
-      "Description": null
-    },
-    "5fd95b425dd0b73488554abcb68382d3": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Delamere's Bow",
-      "File": "DelameresBowItem.5fd95b425dd0b73488554abcb68382d3.json",
-      "Cost": 37000,
-      "CR": 13,
-      "Description": null
-    },
-    "a374b79fe2c710e4fb2cec1ce74cc062": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Delamere's Cursed Armor",
-      "File": "CursedDelameresArmorItem.a374b79fe2c710e4fb2cec1ce74cc062.json",
-      "Cost": 25000,
-      "CR": 9,
-      "Description": null
-    },
-    "15acf7ada5903ec429f7cd62a6162613": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Delamere's Cursed Bow",
-      "File": "CursedDelameresBowItem.15acf7ada5903ec429f7cd62a6162613.json",
-      "Cost": 37000,
-      "CR": 13,
-      "Description": null
-    },
     "f7d357a00baf9ab4dab0b6e49e11656d": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Demonic Resentment",
@@ -10000,14 +9968,6 @@
       "File": "ScrollOfAtonement.293a030177231024ca99cabbb1722009.json",
       "Cost": 3000,
       "CR": 4,
-      "Description": null
-    },
-    "d5a53604d7ad4fc2b6f6d359c5a7e5d1": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Seal of Jubilex",
-      "File": "ColorlessRemainsBreastplate_SolidItem.d5a53604d7ad4fc2b6f6d359c5a7e5d1.json",
-      "Cost": 90000,
-      "CR": 18,
       "Description": null
     },
     "ac47a701c6ea4d2e95d3e6eccf51d460": {

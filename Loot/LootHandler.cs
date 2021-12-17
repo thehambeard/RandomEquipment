@@ -30,7 +30,7 @@ namespace RandomEquipment.Loot
 {
     class LootHandler : IModEventHandler, IAreaLoadingStagesHandler, IAreaPartHandler
     {
-        public int Priority => 100;
+        public int Priority => 300;
 
         public UnusedLootDict RegLoot = LootJSON.LoadJSON(File.ReadAllText($"{ModPath}/regular.json"));
 
@@ -41,7 +41,8 @@ namespace RandomEquipment.Loot
             foreach (var container in LootHelper.GetContainersCurrentArea())
             {
                 var roll = RulebookEvent.Dice.D100;
-                if (roll >= 95 || (roll > 75 && !container.InteractionLoot.AlreadyUnlocked))
+                
+                if (roll <= SetWrap.RegularChance || (roll <= SetWrap.LockedChance && !container.InteractionLoot.AlreadyUnlocked))
                 {
                     GiveRandom(container, CalculateLevel());
                 }

@@ -24,6 +24,18 @@ namespace RandomEquipment.Utilities
             set => Mod.Settings.itemsGiven = value;
         }
 
+        public static int RegularChance
+        {
+            get => Mod.Settings.regularChance;
+            set => Mod.Settings.regularChance = value;
+        }
+
+        public static int LockedChance
+        {
+            get => Mod.Settings.lockedChance;
+            set => Mod.Settings.lockedChance = value;
+        }
+
         public static void EnsureContainersChecked()
         {
             if (SetWrap.ContainersChecked == null)
