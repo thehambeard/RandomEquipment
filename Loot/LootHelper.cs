@@ -29,7 +29,9 @@ namespace RandomEquipment.Loot
                 .Where<EntityDataBase>(e => e.IsInGame)
                 .Select<EntityDataBase, InteractionLootPart>(i => i.Get<InteractionLootPart>())
                 .Where<InteractionLootPart>(i => i?.Loot != Game.Instance.Player.SharedStash)
+#if !DEBUG
                 .Where<InteractionLootPart>(i => !SetWrap.ContainersChecked[Game.Instance.Player.GameId].Contains(i?.Owner.UniqueId))
+#endif
                 .NotNull<InteractionLootPart>();
 
             var source = TempList.Get<InteractionLootPart>();

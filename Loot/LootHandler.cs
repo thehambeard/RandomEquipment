@@ -25,6 +25,7 @@ using Kingmaker.RuleSystem;
 using Kingmaker.Blueprints.Items.Equipment;
 using Kingmaker.Dungeon.Blueprints;
 using Kingmaker.Blueprints.Root;
+using Kingmaker.View.MapObjects.InteractionRestrictions;
 
 namespace RandomEquipment.Loot
 {
@@ -41,8 +42,8 @@ namespace RandomEquipment.Loot
             foreach (var container in LootHelper.GetContainersCurrentArea())
             {
                 var roll = RulebookEvent.Dice.D100;
-                
-                if (roll <= SetWrap.RegularChance || (roll <= SetWrap.LockedChance && !container.InteractionLoot.AlreadyUnlocked))
+                int? trickDc = container.InteractionLoot?.Owner?.Get<DisableDeviceRestrictionPart>()?.DC;
+                if (roll <= SetWrap.RegularChance || (roll <= SetWrap.LockedChance && trickDc > 0))
                 {
                     GiveRandom(container, CalculateLevel());
                 }
