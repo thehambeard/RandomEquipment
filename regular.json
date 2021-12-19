@@ -2,14 +2,6 @@
   //"$type": "Index2json.UnusedLootDict, Index2json",
   "Dict": {
     //"$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Index2json.UnusedLootItem, Index2json]], mscorlib",
-    "1050ae1293421e24f84a0208fdf0d114": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "",
-      "File": "CertaintyOfDeathSecondItem.1050ae1293421e24f84a0208fdf0d114.json",
-      "Cost": 72000,
-      "CR": 21,
-      "Description": null
-    },
     "3b72223fefa190148a4df605e18b21b6": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "\\Nahyndrian\\ Crystal",
@@ -856,14 +848,6 @@
       "File": "GlovesOfFirmGripItem.d5480772bdd29e545b627415186de20e.json",
       "Cost": 25000,
       "CR": 5,
-      "Description": null
-    },
-    "8ebf09ea8f6079246b471e905e9baedc": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Atrocities",
-      "File": "AtrocitiesSecondItem.8ebf09ea8f6079246b471e905e9baedc.json",
-      "Cost": 1200,
-      "CR": 2,
       "Description": null
     },
     "c3f0071bec7a17d42b0cc3da8fd3d45e": {
@@ -3274,14 +3258,6 @@
       "CR": 16,
       "Description": null
     },
-    "a074b8cc7a0fa0940ad6bc8bec1be8de": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Cruel Fate",
-      "File": "DaggerOfFateSecondItem.a074b8cc7a0fa0940ad6bc8bec1be8de.json",
-      "Cost": 100000,
-      "CR": 16,
-      "Description": null
-    },
     "98b78c1ebf9d4e0ba405334c971ee801": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Cruel Living Bane Sickle +5",
@@ -4248,14 +4224,6 @@
       "File": "BadTemperItem.a3488b3542ba3b941b345ed42d31ecad.json",
       "Cost": 62000,
       "CR": 10,
-      "Description": null
-    },
-    "fc25d3ec4321af94bb48f8afa77b8e00": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Fang of Malice",
-      "File": "BadTemperSecondItem.fc25d3ec4321af94bb48f8afa77b8e00.json",
-      "Cost": 72000,
-      "CR": 21,
       "Description": null
     },
     "ac018b12d74dc3c4fb47cf2f74b9b065": {
@@ -9018,14 +8986,6 @@
       "CR": 10,
       "Description": null
     },
-    "db991474c92217f479fa315160958e0a": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Rebound",
-      "File": "ReboundSecondItem.db991474c92217f479fa315160958e0a.json",
-      "Cost": 72000,
-      "CR": 21,
-      "Description": null
-    },
     "9343a0ba1c98d7f4eb5f5cb517280764": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Reckless Vengeance",
@@ -9952,14 +9912,6 @@
       "File": "ScreamReaperItem.698c2df9b0e1e0b4b84cb9cb33f875dc.json",
       "Cost": 120000,
       "CR": 13,
-      "Description": null
-    },
-    "4f75fb5839ecaa14ebe5e2055997b30c": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Screaming Reaper",
-      "File": "ScreamReaperSecondItem.4f75fb5839ecaa14ebe5e2055997b30c.json",
-      "Cost": 32000,
-      "CR": 14,
       "Description": null
     },
     "293a030177231024ca99cabbb1722009": {
@@ -11050,14 +11002,6 @@
       "CR": 4,
       "Description": null
     },
-    "3e635e1b36c3ce14e8e67a047e76af10": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Tempest",
-      "File": "TempsetAxeSecondItem.3e635e1b36c3ce14e8e67a047e76af10.json",
-      "Cost": 1200,
-      "CR": 2,
-      "Description": null
-    },
     "f8e7ee2b7f22ecf4b9d1dd2c26421f13": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Tender Touch",
@@ -11144,14 +11088,6 @@
       "File": "TheDebilitatorFirstItem.ee876bb6cccf49a43a0b24a60188eb3d.json",
       "Cost": 76000,
       "CR": 10,
-      "Description": null
-    },
-    "df4f4172864240945bc8dfb10ff3f2d9": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "The Debilitator",
-      "File": "TheDebilitatorSecondItem.df4f4172864240945bc8dfb10ff3f2d9.json",
-      "Cost": 72000,
-      "CR": 21,
       "Description": null
     },
     "d238225ca9af8434ba1d9b32ef06e8ba": {
