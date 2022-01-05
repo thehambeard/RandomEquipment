@@ -33,6 +33,10 @@ namespace RandomEquipment.Menus
                     GUILayout.Label($"Chance to generate in locked container: {SetWrap.LockedChance}%  ", GUILayout.Width(300));
                     SetWrap.LockedChance = (int)GUILayout.HorizontalSlider(SetWrap.LockedChance, 0, 100, GUILayout.Width(400));
                 }
+                using (new GUILayout.HorizontalScope())
+                {
+                    SetWrap.LogGen = GUILayout.Toggle(SetWrap.LogGen, "Log chest generation output", GUILayout.ExpandWidth(false));
+                }
             }
 #if DEBUG
             if (GUILayout.Button("Test"))

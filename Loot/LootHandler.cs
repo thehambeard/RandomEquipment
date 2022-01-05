@@ -38,11 +38,13 @@ namespace RandomEquipment.Loot
         public void PrepareAreaLootRoll()
         {
             SetWrap.EnsureContainersChecked();
-            
+
+            int chestCount = 0;
             foreach (var container in LootHelper.GetContainersCurrentArea())
             {
                 var roll = RulebookEvent.Dice.D100;
                 int? trickDc = container.InteractionLoot?.Owner?.Get<DisableDeviceRestrictionPart>()?.DC;
+                if (SetWrap.LogGen) Mod.Log($"Rolling for {(trickDc > 0 ? "locked" : "normal")} chest; number {++chestCount}: {roll}%");
                 if (roll <= SetWrap.RegularChance || (roll <= SetWrap.LockedChance && trickDc > 0))
                 {
                     GiveRandom(container, CalculateLevel());
@@ -66,21 +68,27 @@ namespace RandomEquipment.Loot
         {
             SetWrap.EnsureItemsGiven();
             var blueprint = RegLoot.LootDict.Where(p => p.Value.CR >= (level - 5 >= 1 ? level - 5 : 1) && p.Value.CR <= level && p.Value.Cost <= Level2Cost(level))?.Random().Key;
+            if (SetWrap.LogGen) Mod.Log($"Attempting to give level {level} item");
             if (blueprint.IsNullOrEmpty() || SetWrap.ItemsGiven[Game.Instance.Player.GameId].Contains(blueprint))
             {
+                
                 if (3 < level && level < 20)
+                {
+                    if (SetWrap.LogGen) Mod.Log("Give Failed: increasing modified level by 1");
                     GiveRandom(container, level + 1);
+                }
+                else if (SetWrap.LogGen) 
+                    Mod.Log($"Give Failed: modified level below 4 or greater than 20");
                 return;
             }
-
             var item = ResourcesLibrary.TryGetBlueprint<BlueprintItem>(blueprint).CreateEntity();
 
-            Mod.Debug(container.InteractionLoot.Source.name);
+            if (SetWrap.LogGen) Mod.Log($"Gave item: {item.Name}");
+
             if (container.InteractionLoot.Settings.ItemRestriction.guid.IsNullOrEmpty())
             {
                 if (!SetWrap.ItemsGiven[Game.Instance.Player.GameId].Contains(blueprint))
                     SetWrap.ItemsGiven[Game.Instance.Player.GameId].Add(blueprint);
-                Mod.Debug($"Gave: {blueprint}");
                 container.InteractionLoot.Loot.Add(item);
             }
         }

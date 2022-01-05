@@ -8,19 +8,18 @@ using System.Threading.Tasks;
 
 namespace RandomEquipment.Patches
 {
-    class Init
-    {
-        [HarmonyPatch(typeof(BlueprintsCache), "Init")]
-        private static class BlueprintsCacheInitPatch
-        {
-            private static bool _initialized;
+    //class Init
+    //{
+    //    [HarmonyPatch(typeof(BlueprintsCache), "Init")]
+    //    private static class BlueprintsCacheInitPatch
+    //    {
+    //        private static bool _initialized;
 
-            private static void Postfix()
-            {
-                if (_initialized) return;
-                _initialized = true;
-                Loot.Fixes.Fix();
-            }
-        }
-    }
+    //        private static void Postfix()
+    //        {
+    //            if (_initialized) return;
+    //            _initialized = true;
+    //        }
+    //    }
+    //}
 }

@@ -143,7 +143,6 @@
   <ItemGroup>
     <Compile Include="Core.cs" />
     <Compile Include="DefaultLanguage.cs" />
-    <Compile Include="Loot\Fixes.cs" />
     <Compile Include="Loot\LootHandler.cs" />
     <Compile Include="Loot\LootHelper.cs" />
     <Compile Include="Loot\UnusedLoot.cs" />

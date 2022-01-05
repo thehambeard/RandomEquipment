@@ -14,5 +14,6 @@ namespace RandomEquipment
         public SerializableDictionary<string, HashSet<string>> itemsGiven;
         public int regularChance;
         public int lockedChance;
+        public bool logGen;
     }
 }

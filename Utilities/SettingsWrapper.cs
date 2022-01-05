@@ -36,6 +36,12 @@ namespace RandomEquipment.Utilities
             set => Mod.Settings.lockedChance = value;
         }
 
+        public static bool LogGen
+        {
+            get => Mod.Settings.logGen;
+            set => Mod.Settings.logGen = value;
+        }
+
         public static void EnsureContainersChecked()
         {
             if (SetWrap.ContainersChecked == null)
