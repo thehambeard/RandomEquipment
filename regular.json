@@ -2778,14 +2778,6 @@
       "CR": 13,
       "Description": null
     },
-    "a7389771ecac3384991c12cb994739b5": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Cold Iron Corrosive Orc Double Axe +2",
-      "File": "StandardDoubleAxeColdIronCorrosiveSecondPlus5.a7389771ecac3384991c12cb994739b5.json",
-      "Cost": 32000,
-      "CR": 14,
-      "Description": null
-    },
     "ebea3139c4649e7459079d424c89e561": {
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Cold Iron Dagger +1",
@@ -3088,14 +3080,6 @@
       "File": "LightPickCorrosivePlus1.8292f9c56eefa7e43be348e74f7124d5.json",
       "Cost": 8300,
       "CR": 7,
-      "Description": null
-    },
-    "6e3564513ebc194468dc48051fddc407": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Corrosive Orc Double Axe +2",
-      "File": "StandardDoubleAxeSecondCorrosivePlus2.6e3564513ebc194468dc48051fddc407.json",
-      "Cost": 1200,
-      "CR": 2,
       "Description": null
     },
     "b4caa71962bd1264593961d4f1ee2e8d": {
@@ -4622,14 +4606,6 @@
       //"$type": "Index2json.UnusedLootItem, Index2json",
       "Name": "Flaming Orc Double Axe +2",
       "File": "StandardDoubleAxeFlamingPlus2.a2483f0d1edccc7408773ef17c480aff.json",
-      "Cost": 18500,
-      "CR": 10,
-      "Description": null
-    },
-    "7bec8347ab13baf47aeea304ca3e4e28": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Flaming Orc Double Axe +2",
-      "File": "StandardDoubleAxeSecondFlamingPlus2.7bec8347ab13baf47aeea304ca3e4e28.json",
       "Cost": 18500,
       "CR": 10,
       "Description": null
@@ -6456,14 +6432,6 @@
       "File": "HolyFlamingDoubleAxePlus3Item.a40add44180eaed41a7108dc2429c036.json",
       "Cost": 50000,
       "CR": 10,
-      "Description": null
-    },
-    "7924bcdbe0e45974994f4d399ef21fdb": {
-      //"$type": "Index2json.UnusedLootItem, Index2json",
-      "Name": "Holy Flaming Orc Double Axe +3",
-      "File": "HolyFlamingDoubleAxeSecondPlus3Item.7924bcdbe0e45974994f4d399ef21fdb.json",
-      "Cost": 72000,
-      "CR": 21,
       "Description": null
     },
     "666f6a9a667ef8446addbfaebdba0c26": {

@@ -38,7 +38,7 @@ namespace RandomEquipment.Loot
                 if (!interactionLootPart.IsViewed && interactionLootPart.Settings.ItemRestriction.Guid == "" && !SetWrap.ContainersChecked[Game.Instance.Player.GameId].Contains(interactionLootPart?.Owner.UniqueId))
                     source.Add(interactionLootPart);
                 else
-                    if (SetWrap.LogGen) Main.Mod.Debug("Excluding chest due to either already being viewed by player, restricted inventory, or already rolled");
+                    if (SetWrap.LogGen) Main.Mod.Log("Excluding chest due to either already being viewed by player, restricted inventory, or already rolled");
             }
 
             var collection = source.Distinct<InteractionLootPart>((IEqualityComparer<InteractionLootPart>)new MassLootHelper.LootDuplicateCheck()).Select<InteractionLootPart, LootWrapper>((Func<InteractionLootPart, LootWrapper>)(i => new LootWrapper()
