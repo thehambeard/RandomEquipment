@@ -73,7 +73,7 @@ namespace WrathRandomEquipment.RandomEquipment
                     (
                         percentChance: 30,
                         amount: DiceType.One,
-                        tries: DiceType.D4,
+                        tries: DiceType.D3,
                         itemFilter: REFilters.ItemFilters.ScrollFilter
                     ))
                     .AddTableEntry(new
