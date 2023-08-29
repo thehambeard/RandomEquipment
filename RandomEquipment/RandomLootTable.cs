@@ -90,7 +90,7 @@ namespace WrathRandomEquipment.RandomEquipment
 
             VLog($"Rolling on table {Name}: Rolled a {roll}");
 
-            ItemResult rollResult = new();
+            List<ItemResult> rollResults = new();
 
             foreach (var tableEntry in _tableEntries)
             {
@@ -109,15 +109,22 @@ namespace WrathRandomEquipment.RandomEquipment
                         levelFilter.Update();
                     }
 
-                    rollResult.Guid = RandomEquipmentHandler.Instance.GetRandom(itemFilter, levelFilter);
-                    rollResult.Count = RulebookEvent.Dice.D(1, tableEntry.Amount);
+                    var tries = RulebookEvent.Dice.D(1, tableEntry.Tries);
 
+                    for (int i = 0; i < tries; i++)
+                    {
+                        rollResults.Add(new ItemResult()
+                        {
+                            Guid = RandomEquipmentHandler.Instance.GetRandom(itemFilter, levelFilter),
+                            Count = RulebookEvent.Dice.D(1, tableEntry.Amount)
+                        });
+                    }
                     break;
                 }
             }
 
-            if (!rollResult.IsEmpty)
-                result.Add(rollResult);
+            if (rollResults.Count != 0)
+                result.AddRange(rollResults);
             else
             {
                 VLog("No items added...");
@@ -157,13 +164,15 @@ namespace WrathRandomEquipment.RandomEquipment
             public Func<RandomItemEntry, bool> ItemFilter;
             public REFilters.LevelFilter LevelFilter;
             public DiceType Amount;
+            public DiceType Tries;
 
-            public TableEntry(int percentChance = 100, DiceType amount = DiceType.One, REFilters.LevelFilter levelFilter = null, Func<RandomItemEntry, bool> itemFilter = null)
+            public TableEntry(int percentChance = 100, DiceType tries = DiceType.One, DiceType amount = DiceType.One, REFilters.LevelFilter levelFilter = null, Func<RandomItemEntry, bool> itemFilter = null)
             {
                 PercentChance = percentChance;
                 ItemFilter = itemFilter;
                 LevelFilter = levelFilter;
                 Amount = amount;
+                Tries = tries;
             }
         }
 

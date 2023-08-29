@@ -45,7 +45,7 @@ namespace WrathRandomEquipment.RandomEquipment
                 int modLevel;
 
                 modLevel = level + _modifier.CurrentModifier + _retryMod;
-                minLevel = modLevel - 3;
+                minLevel = modLevel - 2;
 
                 var CRFlag = item.CR >= (minLevel >= 1 && minLevel < level ? minLevel : 1) && item.CR <= modLevel;
                 var CLFLag = item.CL >= (minLevel >= 1 && minLevel < level ? minLevel : 1) && item.CL <= modLevel;

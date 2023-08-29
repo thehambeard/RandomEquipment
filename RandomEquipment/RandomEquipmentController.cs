@@ -54,6 +54,7 @@ namespace WrathRandomEquipment.RandomEquipment
                 (
                     percentChance: 100,
                     amount: DiceType.One,
+                    tries: DiceType.One,
                     itemFilter: REFilters.ItemFilters.AllExceptUsable
                 ))
                 .AddSubTable
@@ -64,13 +65,15 @@ namespace WrathRandomEquipment.RandomEquipment
                     .AddTableEntry(new
                     (
                         percentChance: 40,
-                        amount: DiceType.D3,
+                        amount: DiceType.D2,
+                        tries: DiceType.D2,
                         itemFilter: REFilters.ItemFilters.PotionFilter
                     ))
                     .AddTableEntry(new
                     (
                         percentChance: 30,
-                        amount: DiceType.D3,
+                        amount: DiceType.One,
+                        tries: DiceType.D4,
                         itemFilter: REFilters.ItemFilters.ScrollFilter
                     ))
                     .AddTableEntry(new
