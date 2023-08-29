@@ -24,6 +24,8 @@ namespace WrathRandomEquipment.Utility
                 collection.Add(blueprint, item.Count);
                 Logger.VLog($"Added {blueprint.Name} to the containter! Count: {item.Count}");
             }
+            else
+                Logger.VLog($"Blueprint not found: {item.Guid}");
             return result;
         }
 

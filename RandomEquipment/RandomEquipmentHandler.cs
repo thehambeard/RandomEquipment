@@ -12,7 +12,7 @@ using WrathRandomEquipment.Utility;
 namespace WrathRandomEquipment.RandomEquipment
 {
     [Serializable]
-    internal class RandomEquipmentHandler : IAreaLoadingStagesHandler, IAreaHandler, IDisposable
+    internal class RandomEquipmentHandler : IAreaLoadingStagesHandler, IDisposable
     {
         private static RandomEquipmentHandler _instance;
 
@@ -55,7 +55,7 @@ namespace WrathRandomEquipment.RandomEquipment
             }
         }
 
-        public void Finish()
+        public void Save()
         {
             var path = Path.Combine(Main.ModPath, "UsedLists");
 
@@ -72,10 +72,12 @@ namespace WrathRandomEquipment.RandomEquipment
             if (levelFilter != null)
                 Logger.VLog($"Level modifier of {levelFilter.Modifier} will be applied to the party level for determining the quality of the random item...");
 
-            var blueprint = _itemDictionary.Items.Where(item => (itemFilter != null ? itemFilter(item.Value) : true) && (levelFilter != null ? levelFilter.IsValid(item.Value) : true))
+            var results = _itemDictionary.Items.Where(item => (itemFilter != null ? itemFilter(item.Value) : true) && (levelFilter != null ? levelFilter.IsValid(item.Value) : true))
                 .Select(k => k.Key)
-                .Except(UsedItems)
-                .Random();
+                .Except(UsedItems);
+
+            Logger.VLog($"{results.Count()} items found to pick from");
+            var blueprint = results.Random();
 
             if (blueprint.IsNullOrEmpty())
             {
@@ -102,9 +104,5 @@ namespace WrathRandomEquipment.RandomEquipment
         public void OnAreaScenesLoaded() { }
 
         public void OnAreaLoadingComplete() => PostLoad();
-
-        public void OnAreaBeginUnloading() => Finish();
-
-        public void OnAreaDidLoad() { }
     }
 }

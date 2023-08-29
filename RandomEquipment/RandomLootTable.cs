@@ -119,7 +119,10 @@ namespace WrathRandomEquipment.RandomEquipment
             if (!rollResult.IsEmpty)
                 result.Add(rollResult);
             else
+            {
                 VLog("No items added...");
+                CLog($"({Name}): No item in your level range");
+            }
 
             return result;
         }
