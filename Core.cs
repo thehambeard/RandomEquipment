@@ -1,28 +1,22 @@
-﻿using Kingmaker.PubSubSystem;
-using ModMaker;
+﻿using ModMaker;
 using System;
-using System.Reflection;
-using RandomEquipment.Utilities;
-using static RandomEquipment.Main;
-
-namespace RandomEquipment
+using static WrathRandomEquipment.Main;
+namespace WrathRandomEquipment
 {
     class Core :
         IModEventHandler
     {
-        public int Priority => 100;
+        public int Priority => 200;
 
         public void ResetSettings()
         {
-            Mod.Settings.lockedChance = 25;
-            Mod.Settings.regularChance = 5;
+            Mod.ResetSettings();
             Mod.Settings.lastModVersion = Mod.Version.ToString();
-        } 
+        }
 
         public void HandleModEnable()
         {
-            Mod.Debug(MethodBase.GetCurrentMethod());
-            if (!Version.TryParse(Mod.Settings.lastModVersion, out Version version) || version < new Version(1, 0, 2))
+            if (!Version.TryParse(Mod.Settings.lastModVersion, out Version version) || version < new Version(0, 0, 0))
                 ResetSettings();
             else
             {

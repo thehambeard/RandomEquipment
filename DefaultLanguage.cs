@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace RandomEquipment
+namespace WrathRandomEquipment
 {
     [JsonObject(MemberSerialization.OptOut)]
     public class DefaultLanguage : ILanguage

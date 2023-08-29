@@ -1,13 +1,11 @@
-﻿using Kingmaker.Blueprints;
-using ModMaker;
+﻿using ModMaker;
 using ModMaker.Utility;
 using System;
 using System.Reflection;
 using UnityModManagerNet;
-using UnityEngine;
 
 
-namespace RandomEquipment
+namespace WrathRandomEquipment
 {
 #if (DEBUG)
     [EnableReloading]
@@ -18,13 +16,15 @@ namespace RandomEquipment
         public static ModManager<Core, Settings> Mod;
         public static MenuManager Menu;
         public static string ModPath;
+
         static bool Load(UnityModManager.ModEntry modEntry)
         {
             Local = new LocalizationManager<DefaultLanguage>();
             Mod = new ModManager<Core, Settings>();
             Menu = new MenuManager();
-            modEntry.OnToggle = OnToggle;
             ModPath = modEntry.Path;
+            modEntry.OnToggle = OnToggle;
+
 #if (DEBUG)
             modEntry.OnUnload = Unload;
             return true;

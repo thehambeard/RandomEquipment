@@ -24,6 +24,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ib/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -332,3 +333,5 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+Lib/Assembly-CSharp_public.dll
+Lib/Assembly-CSharp_public.hash

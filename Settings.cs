@@ -1,19 +1,11 @@
-﻿using UnityEngine;
-using ModMaker.Utility;
-using UnityModManagerNet;
-using System.Collections.Generic;
+﻿using UnityModManagerNet;
 
-namespace RandomEquipment
+namespace WrathRandomEquipment
 {
     public class Settings : UnityModManager.ModSettings
     {
         //settings go here
         public string lastModVersion;
         public string localizationFileName;
-        public SerializableDictionary<string, HashSet<string>> containersChecked;
-        public SerializableDictionary<string, HashSet<string>> itemsGiven;
-        public int regularChance;
-        public int lockedChance;
-        public bool logGen;
     }
 }
