@@ -41,3 +41,16 @@
    most of the junk items. If you crank the chances to 100% this could also happen due to getting all the items in your level range. When this happens the game will attempt to find a valid item again but
    with a +1 level modifier. If that fails then no item is given. 
  * The level range is your modified level and three levels lower than that.
+	 
+ Future plans:
+ * I would like to add the option for user defined loot tables! The framework is there to make this doable as I built it with that in mind. An example of the loot tables could be something like:
+	* 50% chance of container containing loot
+	  * 30% chance of a usable (roll on usable table)
+		* 30% 1d4 Potions
+		* 30% 1d4 Scrolls
+		* 30% Wand
+		* 10% Special usable
+	  * 30% chance of a weapon (roll on weapons table)
+		* *list of weapons types...*
+	  * *more tables...*
+    You can see that tables can contain subtables making your random item experience very unique! I hope to add this if I get time...
