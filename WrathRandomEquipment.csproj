@@ -382,6 +382,7 @@
   copy $(TargetName)$(TargetExt) .\$(TargetName)\$(TargetName)$(TargetExt) /Y
   copy info.json .\$(TargetName)\info.json /Y
   copy LootList.json .\$(TargetName)\LootList.json /Y
+  copy MathNet.Numerics.dll  .\$(TargetName)\MathNet.Numerics.dll
   "C:\Program Files\7-Zip\7z.exe" u -tzip $(TargetName).zip $(TargetName)
 )</PostBuildEvent>
   </PropertyGroup>
