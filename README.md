@@ -4,7 +4,8 @@
  [ModMenu](https://github.com/WittleWolfie/ModMenu/releases) is required to build and required to play.
 
  This is the second version of Random Equipment. The entire mod has been rewritten from the ground up. While not a whole lot has changed on the front end
- lots have changed on the back end of things. This opens up a options for user customizations in the future.
+ lots have changed on the back end of things. This opens up a options for user customizations in the future.  This mod is save safe and can be installed 
+ during a playthrough or removed. It will break nothing.
  
  Updates include:
  * New settings menu using WittleWolfie's [ModMenu](https://github.com/WittleWolfie/ModMenu/releases). The lets you customize your random item experience!
