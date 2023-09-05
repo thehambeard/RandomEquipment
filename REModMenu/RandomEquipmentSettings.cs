@@ -1,5 +1,6 @@
 ﻿using Kingmaker.Localization;
 using Kingmaker.PubSubSystem;
+using ModMenu.NewTypes;
 using ModMenu.Settings;
 using System.Collections.Generic;
 using System.Linq;
@@ -126,7 +127,7 @@ namespace WrathRandomEquipment.REModMenu
                                 description: GetString("combat-logging-label"))
                             .WithLongDescription(GetString("combat-logging-description")))
                     .AddSubHeader(CreateString($"deault-sub-header", "Defaults"), true)
-                        .AddDefaultButton(() => EventBus.RaiseEvent<ISettingsChanged>(h => h.HandleSettingsChanged()));
+                        .AddDefaultButton(() => EventBus.RaiseEvent<ISettingsChanged>(h => h.HandleApplySettings()));
 
             ModMenu.ModMenu.AddSettings(settings);
         }

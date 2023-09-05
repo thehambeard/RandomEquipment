@@ -34,8 +34,17 @@
 	  to see how the effect the chances and select one that you would most want to see in your game.
  
  Notes:
- * The list of random loot that is possible is over 3000 items. This is a dump of the all the items in the game. I have filtered out notable items, broken items, and most of the junk I believe.
-   It there is anything I have missed and shouldn't be part of items given do let me know and I'll add it to the list.
+ * The list of random loot that is possible is 3,990 items from the game. This is a dump of the all the items in the game over 500gp. I have filtered out notable items, broken items, and most of the junk I believe.
+   If there is anything I have missed and shouldn't be part of items given do let me know and I'll add it to the list.
+	* 1581 weapons
+	* 479 armors
+	* 98 shields
+	* 703 equipment pieces
+	* 96 potions
+	* 645 scrolls
+	* 227 wands
+	* 8 utility usables
+	* 156 other usables
  * Random items are only ever given once so you shouldn't see any duplicates. This does not include basic usables.
  * You may see that you were successful in your roll but not get an item. This happens when a valid item in the level range can't be found. This is more common in the lower levels as I have filtered out
    most of the junk items. If you crank the chances to 100% this could also happen due to getting all the items in your level range. When this happens the game will attempt to find a valid item again but

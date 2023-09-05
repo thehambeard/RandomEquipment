@@ -3,6 +3,7 @@ using Kingmaker.PubSubSystem;
 using Kingmaker.UI.MVVM._PCView.Settings.Entities;
 using Kingmaker.UI.MVVM._VM.Settings;
 using WrathRandomEquipment.REModMenu;
+using ModMenu.NewTypes;
 
 namespace WrathRandomEquipment.Patches
 {
@@ -14,7 +15,7 @@ namespace WrathRandomEquipment.Patches
             [HarmonyPatch(nameof(SettingsVM.ApplySettings)), HarmonyPostfix]
             static void Postfix()
             {
-                EventBus.RaiseEvent<ISettingsChanged>(h => h.HandleSettingsChanged());
+                EventBus.RaiseEvent<ISettingsChanged>(h => h.HandleApplySettings());
             }
         }
 

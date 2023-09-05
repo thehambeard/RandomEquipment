@@ -2,7 +2,7 @@
 using Kingmaker.RuleSystem;
 using System;
 using System.Collections.Generic;
-using WrathRandomEquipment.REModMenu;
+using ModMenu.NewTypes;
 using static WrathRandomEquipment.REModMenu.RandomEquipmentSettings;
 
 namespace WrathRandomEquipment.RandomEquipment
@@ -13,7 +13,7 @@ namespace WrathRandomEquipment.RandomEquipment
         public static RandomEquipmentController Instance => _instance;
         public Dictionary<string, RandomLootTable> LootTablesFromSettings { get; set; }
         public EntityLootHandler EntityLootHandler { get; private set; }
-        public void HandleSettingsChanged() => BuildLootTableFromSettings();
+        public void HandleApplySettings() => BuildLootTableFromSettings();
 
         public RandomEquipmentController()
         {

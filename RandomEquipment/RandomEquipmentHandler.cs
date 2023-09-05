@@ -22,7 +22,6 @@ namespace WrathRandomEquipment.RandomEquipment
 
         [JsonProperty("UsedItems")]
         public HashSet<string> UsedItems;
-        private HashSet<string> _cachedUsedItems;
         private RandomEquipmentHandler()
         {
             _playerGuid = string.Empty;

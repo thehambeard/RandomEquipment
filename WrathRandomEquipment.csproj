@@ -323,11 +323,8 @@
     <Compile Include="Patches\Settings.cs" />
     <Compile Include="RandomEquipment\EntityLootHandler.cs" />
     <Compile Include="REModMenu\CurveDescriptionUpdater.cs" />
-    <Compile Include="REModMenu\SettingsDescriptionUpdater.cs" />
-    <Compile Include="REModMenu\ISettingsChanged.cs" />
     <Compile Include="REModMenu\SettingKey.cs" />
     <Compile Include="Utility\Logger.cs" />
-    <Compile Include="REModMenu\Fix.cs" />
     <Compile Include="REModMenu\ModMenuHelpers.cs" />
     <Compile Include="REModMenu\RandomEquipmentSettings.cs" />
     <Compile Include="Patches\Initializations.cs" />
