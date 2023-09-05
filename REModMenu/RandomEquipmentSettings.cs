@@ -109,8 +109,8 @@ namespace WrathRandomEquipment.REModMenu
         {
             var settings = SettingsBuilder.New(_rootKey, CreateString(GetKey("title"), "Random Equipment"));
 
-            CreateSettingsHelper(settings, "standard", 30, 30, -2, 2, 0, 1.2f);
-            CreateSettingsHelper(settings, "hidden", 60, 50, -1, 3, -.7f, 1.6f);
+            CreateSettingsHelper(settings, "standard", 20, 30, -2, 2, 0, 1.2f);
+            CreateSettingsHelper(settings, "hidden", 35, 50, -1, 3, -.7f, 1.6f);
             CreateSettingsHelper(settings, "locked", 50, 50, -2, 3, 0, 1.5f);
 
             settings.AddSubHeader(CreateString($"logging-sub-header", "Logging"), true)
@@ -123,7 +123,7 @@ namespace WrathRandomEquipment.REModMenu
                         .AddToggle(
                             Toggle.New(
                                 key: GetKey("bool-combat-logging"),
-                                defaultValue: false,
+                                defaultValue: true,
                                 description: GetString("combat-logging-label"))
                             .WithLongDescription(GetString("combat-logging-description")))
                     .AddSubHeader(CreateString($"deault-sub-header", "Defaults"), true)

@@ -35,9 +35,9 @@
 	  to see how the effect the chances and select one that you would most want to see in your game.
  
  Notes:
- * The list of random loot that is possible is 3,983 items from the game. This is a dump of the all the items in the game over 500gp. I have filtered out notable items, broken items, and most of the junk I believe.
+ * The list of random loot that is possible is 3985 items from the game. This is a dump of the all the items in the game over 500gp (800gp for weapons). I have filtered out notable items, broken items, and most of the junk I believe.
    If there is anything I have missed and shouldn't be part of items given do let me know and I'll add it to the list.
-	* 1581 weapons
+	* 1583 weapons
 	* 479 armors
 	* 98 shields
 	* 696 equipment pieces
@@ -50,7 +50,8 @@
  * You may see that you were successful in your roll but not get an item. This happens when a valid item in the level range can't be found. This is more common in the lower levels as I have filtered out
    most of the junk items. If you crank the chances to 100% this could also happen due to getting all the items in your level range. When this happens the game will attempt to find a valid item again but
    with a +1 level modifier. If that fails then no item is given. 
- * The level range is your modified level -1 and your modified level +1.
+ * The level range is your modified level -1 and your modified level.
+ * There just isn't a lot of level 1 gear so seeing the same items during each play through or not getting any items despite success rolls is not uncommon during the start of the game. 
 	 
  Future plans:
  * I would like to add the option for user defined loot tables! The framework is there to make this doable as I built it with that in mind. An example of the loot tables could be something like:

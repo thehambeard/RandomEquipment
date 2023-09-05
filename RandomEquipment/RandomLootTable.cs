@@ -1,4 +1,5 @@
-﻿using Kingmaker.RuleSystem;
+﻿using Kingmaker;
+using Kingmaker.RuleSystem;
 using Kingmaker.Utility;
 using System;
 using System.Collections.Generic;
@@ -69,21 +70,18 @@ namespace WrathRandomEquipment.RandomEquipment
             CLog($"Chance ({Name}): {ChanceToRollTable}% Rolled: {roll}");
 
             if (roll > ChanceToRollTable)
+            {
+                CLog("Failed!");
                 return null;
+            }
 
-            VLog($"Success! Rolling {_lootTables.Count} subtables now...");
+            VLog("Success!");
+            CLog("Success!");
 
             if (DefaultLevelFilter != null)
                 DefaultLevelFilter.Update();
 
             List<ItemResult> result = new();
-
-            foreach (var table in _lootTables)
-            {
-                var r = table.Roll();
-                if (r != null && !r.Empty())
-                    result.AddRange(r);
-            }
 
             int accumulator = 0;
             roll = RulebookEvent.Dice.D(1, DiceType.D100);
@@ -108,6 +106,9 @@ namespace WrathRandomEquipment.RandomEquipment
                         levelFilter = tableEntry.LevelFilter;
                         levelFilter.Update();
                     }
+                    
+                    if(levelFilter != null)
+                        CLog($"{(levelFilter.Modifier > 0 ? "+" : "")}{levelFilter.Modifier} level modifier rolled!");
 
                     var tries = RulebookEvent.Dice.D(1, tableEntry.Tries);
 
@@ -123,12 +124,21 @@ namespace WrathRandomEquipment.RandomEquipment
                 }
             }
 
+            VLog($"Rolling {_lootTables.Count} subtables now...");
+
+            foreach (var table in _lootTables)
+            {
+                var r = table.Roll();
+                if (r != null && !r.Empty())
+                    result.AddRange(r);
+            }
+
             if (rollResults.Count != 0)
                 result.AddRange(rollResults);
             else
             {
                 VLog("No items added...");
-                CLog($"({Name}): No item in your level range");
+                CLog("No items in your level range.");
             }
 
             return result;

@@ -196,6 +196,20 @@
       "Cost": 2400,
       "Type": 1
     },
+    "5f98e93b2b53499b9329ce9fd798141c": {
+      "GUID": "5f98e93b2b53499b9329ce9fd798141c",
+      "CL": 1,
+      "CR": 5,
+      "Cost": 3000,
+      "Type": 1
+    },
+    "45d26e88988f491baf1b95d90f292651": {
+      "GUID": "45d26e88988f491baf1b95d90f292651",
+      "CL": 1,
+      "CR": 5,
+      "Cost": 3000,
+      "Type": 1
+    },
     "39ac939af34e75d48aff1554bdc8dc19": {
       "GUID": "39ac939af34e75d48aff1554bdc8dc19",
       "CL": 11,

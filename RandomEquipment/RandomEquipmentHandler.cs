@@ -69,7 +69,9 @@ namespace WrathRandomEquipment.RandomEquipment
         public string GetRandom(Func<RandomItemEntry, bool> itemFilter = null, REFilters.LevelFilter levelFilter = null, int retries = 1)
         {
             if (levelFilter != null)
+            {
                 Logger.VLog($"Level modifier of {levelFilter.Modifier} will be applied to the party level for determining the quality of the random item...");
+            }
 
             var results = _itemDictionary.Items.Where(item => (itemFilter != null ? itemFilter(item.Value) : true) && (levelFilter != null ? levelFilter.IsValid(item.Value) : true))
                 .Select(k => k.Key)
