@@ -64,7 +64,7 @@ namespace WrathRandomEquipment.RandomEquipment
                     .SetDefaultLevelFilter(levelFilter)
                     .AddTableEntry(new
                     (
-                        percentChance: 40,
+                        percentChance: 30,
                         amount: DiceType.D2,
                         tries: DiceType.D2,
                         itemFilter: REFilters.ItemFilters.PotionFilter
@@ -78,13 +78,13 @@ namespace WrathRandomEquipment.RandomEquipment
                     ))
                     .AddTableEntry(new
                     (
-                        percentChance: 20,
+                        percentChance: 25,
                         amount: DiceType.One,
                         itemFilter: REFilters.ItemFilters.WandFilter
                     ))
                     .AddTableEntry(new
                     (
-                        percentChance: 9,
+                        percentChance: 14,
                         amount: DiceType.One,
                         itemFilter: REFilters.ItemFilters.OtherUsableFilter
                     ))
