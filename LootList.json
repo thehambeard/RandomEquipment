@@ -19236,55 +19236,6 @@
       "Cost": 3000,
       "Type": 4
     },
-    "d3707bd5d57f7b64ba591a7a9db640e3": {
-      "GUID": "d3707bd5d57f7b64ba591a7a9db640e3",
-      "CL": 1,
-      "CR": 2,
-      "Cost": 900,
-      "Type": 4
-    },
-    "5a3463e8f61c4663aa59660ff51e3cb1": {
-      "GUID": "5a3463e8f61c4663aa59660ff51e3cb1",
-      "CL": 1,
-      "CR": 14,
-      "Cost": 25000,
-      "Type": 4
-    },
-    "7506e7e62c58c6444881d0896fff5db1": {
-      "GUID": "7506e7e62c58c6444881d0896fff5db1",
-      "CL": 1,
-      "CR": 2,
-      "Cost": 1000,
-      "Type": 4
-    },
-    "f1103195723022844a562bf772e102ce": {
-      "GUID": "f1103195723022844a562bf772e102ce",
-      "CL": 1,
-      "CR": 4,
-      "Cost": 2500,
-      "Type": 4
-    },
-    "35f2344d0c7b8e24a865dbc440adcdb5": {
-      "GUID": "35f2344d0c7b8e24a865dbc440adcdb5",
-      "CL": 1,
-      "CR": 2,
-      "Cost": 600,
-      "Type": 4
-    },
-    "2e8868ceffb4d7f4baa53cd21c62416c": {
-      "GUID": "2e8868ceffb4d7f4baa53cd21c62416c",
-      "CL": 1,
-      "CR": 3,
-      "Cost": 1600,
-      "Type": 4
-    },
-    "80e3fe7c341165548abfecd22b1f6069": {
-      "GUID": "80e3fe7c341165548abfecd22b1f6069",
-      "CL": 1,
-      "CR": 2,
-      "Cost": 800,
-      "Type": 4
-    },
     "cb9ba081b011453597a4f4dd25bad2e6": {
       "GUID": "cb9ba081b011453597a4f4dd25bad2e6",
       "CL": 1,
