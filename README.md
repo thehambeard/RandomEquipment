@@ -35,7 +35,7 @@
 	  to see how the effect the chances and select one that you would most want to see in your game.
  
  Notes:
- * The list of random loot that is possible is 3,s983 items from the game. This is a dump of the all the items in the game over 500gp. I have filtered out notable items, broken items, and most of the junk I believe.
+ * The list of random loot that is possible is 3,983 items from the game. This is a dump of the all the items in the game over 500gp. I have filtered out notable items, broken items, and most of the junk I believe.
    If there is anything I have missed and shouldn't be part of items given do let me know and I'll add it to the list.
 	* 1581 weapons
 	* 479 armors
