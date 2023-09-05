@@ -109,9 +109,9 @@ namespace WrathRandomEquipment.REModMenu
         {
             var settings = SettingsBuilder.New(_rootKey, CreateString(GetKey("title"), "Random Equipment"));
 
-            CreateSettingsHelper(settings, "standard", 20, 30, -2, 2, 0, 1.2f);
-            CreateSettingsHelper(settings, "hidden", 35, 50, -1, 3, -.7f, 1.6f);
-            CreateSettingsHelper(settings, "locked", 50, 50, -2, 3, 0, 1.5f);
+            CreateSettingsHelper(settings, "standard", 20, 30, -2, 1, .3f, 1.5f);
+            CreateSettingsHelper(settings, "hidden", 35, 50, -1, 2, -.5f, 1.8f);
+            CreateSettingsHelper(settings, "locked", 50, 50, 0, 3, -2.4f, 2.1f);
 
             settings.AddSubHeader(CreateString($"logging-sub-header", "Logging"), true)
                         .AddToggle(
