@@ -334,7 +334,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RandomEquipment\AreaLootHandler.cs" />
     <Compile Include="RandomEquipment\RandomLootTable.cs" />
     <Compile Include="RandomEquipment\RandomNormalModifier.cs" />
     <Compile Include="RandomEquipment\REFilters.cs" />

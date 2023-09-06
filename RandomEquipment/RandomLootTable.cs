@@ -1,5 +1,4 @@
-﻿using Kingmaker;
-using Kingmaker.RuleSystem;
+﻿using Kingmaker.RuleSystem;
 using Kingmaker.Utility;
 using System;
 using System.Collections.Generic;
@@ -106,8 +105,8 @@ namespace WrathRandomEquipment.RandomEquipment
                         levelFilter = tableEntry.LevelFilter;
                         levelFilter.Update();
                     }
-                    
-                    if(levelFilter != null)
+
+                    if (levelFilter != null)
                         CLog($"{(levelFilter.Modifier > 0 ? "+" : "")}{levelFilter.Modifier} level modifier rolled!");
 
                     var tries = RulebookEvent.Dice.D(1, tableEntry.Tries);

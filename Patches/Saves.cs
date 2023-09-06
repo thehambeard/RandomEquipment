@@ -1,11 +1,5 @@
 ﻿using HarmonyLib;
 using Kingmaker;
-using Kingmaker.Blueprints.JsonSystem;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WrathRandomEquipment.RandomEquipment;
 
 namespace WrathRandomEquipment.Patches

@@ -1,8 +1,8 @@
 ﻿using Kingmaker.PubSubSystem;
 using Kingmaker.RuleSystem;
+using ModMenu.NewTypes;
 using System;
 using System.Collections.Generic;
-using ModMenu.NewTypes;
 using static WrathRandomEquipment.REModMenu.RandomEquipmentSettings;
 
 namespace WrathRandomEquipment.RandomEquipment

@@ -2,8 +2,8 @@
 using Kingmaker.PubSubSystem;
 using Kingmaker.UI.MVVM._PCView.Settings.Entities;
 using Kingmaker.UI.MVVM._VM.Settings;
-using WrathRandomEquipment.REModMenu;
 using ModMenu.NewTypes;
+using WrathRandomEquipment.REModMenu;
 
 namespace WrathRandomEquipment.Patches
 {
