@@ -36,7 +36,10 @@
 	* This setting will adjust the peak of the curve. Increasing the scale will make all the numbers in the range move closer to being similar in the chances to roll.
 	  Decreasing will make the middle of the range much more likely to be rolled making the ends of the range less likely. I suggest playing around with the sliders
 	  to see how the effect the chances and select one that you would most want to see in your game.
- 
+ * Logging
+   	* Verbose logging (off by default): This will log most of what is happening behind the scenes to the Player.log file.
+   	* Show rolls in combat log (on by default): This will show your rolls in the combat log when you interact with a container.
+   	  
  Notes:
  * The list of random loot that is possible is 3985 items from the game. This is a dump of the all the items in the game over 500gp (800gp for weapons). I have filtered out notable items, broken items, and most of the junk I believe.
    If there is anything I have missed and shouldn't be part of items given do let me know and I'll remove it from the list.
