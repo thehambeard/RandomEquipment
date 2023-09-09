@@ -20,7 +20,7 @@
  * There are 3 sections:
 	* Standard: These are the settings for  normal every day container you find
 	* Hidden: These are the settings for containers you require a perception check to find
-	* Locked: These are the settings for conatainers that are locked.
+	* Locked: These are the settings for containers that are locked.
  * Chance of Random Loot
 	* This setting is the base chance that there is random loot in the container. If you miss this check you get nothing.
  * Chance of Random Usables
