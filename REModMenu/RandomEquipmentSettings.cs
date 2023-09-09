@@ -113,7 +113,7 @@ namespace WrathRandomEquipment.REModMenu
             CreateSettingsHelper(settings, "hidden", 15, 20, -1, 2, -.5f, 1.8f);
             CreateSettingsHelper(settings, "locked", 20, 30, 0, 3, -2.4f, 2.1f);
 
-            settings.AddSubHeader(CreateString($"logging-sub-header", "Logging"), true)
+            settings.AddSubHeader(CreateString("logging-sub-header", "Logging"), true)
                         .AddToggle(
                             Toggle.New(
                                 key: GetKey("bool-verbose-logging"),
@@ -126,8 +126,21 @@ namespace WrathRandomEquipment.REModMenu
                                 defaultValue: true,
                                 description: GetString("combat-logging-label"))
                             .WithLongDescription(GetString("combat-logging-description")))
-                    .AddSubHeader(CreateString($"deault-sub-header", "Defaults"), true)
+                    .AddSubHeader(CreateString("download-sub-header", "Auto Update Loot List"), true)
+                        .AddToggle(
+                            Toggle.New(
+                                key: GetKey("bool-autoupdate"),
+                                defaultValue: false,
+                                description: GetString("autoupdate-label"))
+                            .WithLongDescription(GetString("autoupdate-description")))
+                        .AddButton(
+                            Button.New(
+                                description: GetString("download-button"),
+                                buttonText: GetString("download-button-text"),
+                                onClick: () => LootListDownloader.Download(true)))
+                    .AddSubHeader(CreateString("deault-sub-header", "Defaults"), true)
                         .AddDefaultButton(() => EventBus.RaiseEvent<ISettingsChanged>(h => h.HandleApplySettings()));
+
 
             ModMenu.ModMenu.AddSettings(settings);
         }
@@ -155,6 +168,10 @@ namespace WrathRandomEquipment.REModMenu
             CreateString("combat-logging-description", "This will show the chance of their being loot in the container and the roll you got in the combat history log when you interact with the container.");
             CreateString("verbose-logging-label", "Verbose logging");
             CreateString("verbose-logging-description", "Logs all mod activity to the Player.log file");
+            CreateString("autoupdate-label", "Update the loot list upon game start up.");
+            CreateString("autoupdate-description", "The list of all possible random loot items will update when the game starts up to ensure the latest changes are in effect.");
+            CreateString("download-button", "Download latest loot list.");
+            CreateString("download-button-text", "Download");
         }
 
         public void Update()

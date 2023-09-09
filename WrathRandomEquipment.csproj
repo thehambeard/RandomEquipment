@@ -322,6 +322,7 @@
     <Compile Include="Patches\Saves.cs" />
     <Compile Include="Patches\Settings.cs" />
     <Compile Include="RandomEquipment\EntityLootHandler.cs" />
+    <Compile Include="RandomEquipment\LootListDownloader.cs" />
     <Compile Include="REModMenu\CurveDescriptionUpdater.cs" />
     <Compile Include="REModMenu\SettingKey.cs" />
     <Compile Include="Utility\Logger.cs" />
@@ -357,6 +358,7 @@
     <None Include="LootList.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="LootListChanges.md" />
     <None Include="packages.config" />
     <None Include="README.md" />
     <None Include="Repo.json" />
