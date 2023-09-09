@@ -1,4 +1,5 @@
-﻿using Kingmaker.EntitySystem.Entities;
+﻿using Kingmaker;
+using Kingmaker.EntitySystem.Entities;
 using Kingmaker.PubSubSystem;
 using Kingmaker.View.MapObjects;
 using System;
@@ -25,7 +26,7 @@ namespace WrathRandomEquipment.RandomEquipment
         {
             var lootPart = (InteractionLootPart)interaction;
 
-            if (lootPart == null || lootPart.IsViewed) return;
+            if (lootPart == null || lootPart.IsViewed || lootPart.Settings.ItemRestriction.Guid != "" || lootPart.Loot == Game.Instance.Player.SharedStash) return;
 
             List<ItemResult> results = new();
 
