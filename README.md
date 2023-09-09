@@ -39,6 +39,9 @@
  * Logging
    	* Verbose logging (off by default): This will log most of what is happening behind the scenes to the Player.log file.
    	* Show rolls in combat log (on by default): This will show your rolls in the combat log when you interact with a container.
+ * Updating
+	* Adds option to download the latest list of random loot items. If you wish to update manually you can do so with the download button. Changes can be found
+	  at [LootListChanges](https://github.com/thehambeard/RandomEquipment/blob/main/LootListChanges.md).
    	  
  Notes:
  * The list of random loot that is possible is 3985 items from the game. This is a dump of the all the items in the game over 500gp (800gp for weapons). I have filtered out notable items, broken items, and most of the junk I believe.
