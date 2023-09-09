@@ -49,6 +49,11 @@ namespace WrathRandomEquipment.Utility
             return loot.Owner?.PerceptionCheckDC > 0;
         }
 
+        public static bool IsDroppedByPlayer(this InteractionLootPart loot)
+        {
+            return loot.Owner.View is DroppedLoot && ((DroppedLoot)loot.Owner.View).IsDroppedByPlayer;
+        }
+
         public static T Random<T>(this IEnumerable<T> enumerable)
         {
             if (enumerable == null)
