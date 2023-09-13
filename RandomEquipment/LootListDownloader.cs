@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using static ModMenu.ModMenu;
 using static WrathRandomEquipment.REModMenu.RandomEquipmentSettings;
@@ -21,8 +22,11 @@ namespace WrathRandomEquipment.RandomEquipment
                         {
                             Main.Mod.Log("Downloaded lastest LootList.json");
                             var localPath = Path.Combine(Main.ModPath, "LootList.json");
-                            using var fileStream = new FileStream(localPath, FileMode.Create);
-                            await response.Content.CopyToAsync(fileStream);
+                            using (var fileStream = new FileStream(localPath, FileMode.Create))
+                            {
+                                await response.Content.CopyToAsync(fileStream);
+                            }
+                            await RandomEquipmentHandler.Instance.Refresh();
                         }
                     }
                 }

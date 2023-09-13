@@ -2,6 +2,7 @@
 using ModMaker.Utility;
 using System;
 using System.Reflection;
+using UnityEngine;
 using UnityModManagerNet;
 
 
@@ -24,7 +25,6 @@ namespace WrathRandomEquipment
             Menu = new MenuManager();
             ModPath = modEntry.Path;
             modEntry.OnToggle = OnToggle;
-
 #if (DEBUG)
             modEntry.OnUnload = Unload;
             return true;
@@ -42,7 +42,7 @@ namespace WrathRandomEquipment
             return true;
         }
 #endif
-        static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
+            static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
         {
             if (value)
             {

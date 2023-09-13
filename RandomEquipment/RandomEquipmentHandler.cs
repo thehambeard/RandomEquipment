@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using WrathRandomEquipment.Utility;
 
 
@@ -37,6 +38,12 @@ namespace WrathRandomEquipment.RandomEquipment
         {
             _instance = new();
             return _instance;
+        }
+
+        public async Task Refresh()
+        {
+            _itemDictionary = new();
+            _itemDictionary.Load();
         }
 
         public void PostLoad()
