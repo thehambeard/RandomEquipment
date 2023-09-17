@@ -1,5 +1,5 @@
 ﻿# Version 2.0.6
-* Fixed: Rolling on interactions with evironment objects (ex: single books, a bottle)
+* Fixed: Rolling on interactions with environment objects (ex: single books, a bottle)
 * Fixed: Rolling on exploded corpses. 
  
 # Version 2.0.5
