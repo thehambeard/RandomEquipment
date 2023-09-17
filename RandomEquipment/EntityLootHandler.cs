@@ -26,7 +26,14 @@ namespace WrathRandomEquipment.RandomEquipment
         {
             var lootPart = (InteractionLootPart)interaction;
 
-            if (lootPart == null || lootPart.IsViewed || lootPart.Settings.ItemRestriction.Guid != "" || lootPart.Loot == Game.Instance.Player.SharedStash || lootPart.IsDroppedByPlayer()) return;
+            if (lootPart == null 
+                || lootPart.IsViewed 
+                || lootPart.Settings.ItemRestriction.Guid != ""
+                || lootPart.Settings.LootContainerType == LootContainerType.Environment
+                || lootPart.Settings.LootContainerType == LootContainerType.OneSlot
+                || lootPart.Settings.LootContainerType == LootContainerType.PlayerChest
+                || lootPart.View is DroppedLoot) 
+                return;
 
             List<ItemResult> results = new();
 
