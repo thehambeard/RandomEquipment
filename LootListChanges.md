@@ -2,7 +2,7 @@
 
 
 Key:
-* [m] Modified CL, CR, Cost of an item. (CR is what the mod uses to determine what to give though)
+* [m] Modified CR
 * [+] Added item
 * [-] Removed item
 
