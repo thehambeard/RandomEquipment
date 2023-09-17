@@ -3,8 +3,7 @@
  [WrathModMaker](https://github.com/cabarius/WrathModMaker) is required to build.
  [ModMenu 1.3.1+](https://github.com/WittleWolfie/ModMenu/releases) is required to build and required to play.
 
- This a mod for Pathfinder: WOTR that will add random game loot to any container the player interacts with based on a percentage chance. The loot already inside the 
- container is untouched this mod will only add to it. The loot possible is based on your level and shouldn't give anything inappropriately OP.
+ This a mod for Pathfinder: WOTR that will add random game loot to any container the player interacts with based on a percentage chance. The loot already inside the container is untouched by the mod and will only add to it. The loot possible is based on your level and shouldn't give anything inappropriately OP.
 
  This is the second version of Random Equipment. The entire mod has been rewritten from the ground up. While not a whole lot has changed on the front end
  lots have changed on the back end of things. This opens up a options for user customizations in the future.  This mod is save safe and can be installed 
