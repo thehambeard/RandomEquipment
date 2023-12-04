@@ -51,7 +51,7 @@
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Pathfinder Second Adventure Debug\Wrath_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp_public">
-      <HintPath>..\WrathBlueprintDump\lib\Assembly-CSharp_public.dll</HintPath>
+      <HintPath>lib\Assembly-CSharp_public.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\MathNet.Numerics.5.0.0\lib\net461\MathNet.Numerics.dll</HintPath>

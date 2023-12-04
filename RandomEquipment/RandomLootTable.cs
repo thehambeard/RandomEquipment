@@ -65,61 +65,82 @@ namespace WrathRandomEquipment.RandomEquipment
         {
             var roll = RulebookEvent.Dice.D(1, DiceType.D100);
 
-            VLog($"Chance of container having random loot: {ChanceToRollTable}. A {roll} was rolled...");
-            CLog($"Chance ({Name}): {ChanceToRollTable}% Rolled: {roll}");
+            VLog($"Chance to roll the table: {ChanceToRollTable}. A {roll} was rolled...");
 
-            if (roll > ChanceToRollTable)
+            if (ChanceToRollTable < 100)
             {
-                CLog("Failed!");
-                return null;
+                CLog($"Chance ({Name}): {ChanceToRollTable}% Rolled: {roll}");
+
+                if (roll >= ChanceToRollTable)
+                {
+                    CLog("Failed!");
+                    return null;
+                }
+                
+                CLog("Success!");
             }
 
             VLog("Success!");
-            CLog("Success!");
 
             if (DefaultLevelFilter != null)
                 DefaultLevelFilter.Update();
 
             List<ItemResult> result = new();
 
-            int accumulator = 0;
-            roll = RulebookEvent.Dice.D(1, DiceType.D100);
-
-            VLog($"Rolling on table {Name}: Rolled a {roll}");
-
-            List<ItemResult> rollResults = new();
-
-            foreach (var tableEntry in _tableEntries)
+            if (_tableEntries.Count > 0)
             {
-                accumulator += tableEntry.PercentChance;
+                int accumulator = 0;
+                roll = RulebookEvent.Dice.D(1, DiceType.D100);
 
-                if (roll <= accumulator)
+                VLog($"Rolling on table {Name}: Rolled a {roll}");
+
+                List<ItemResult> rollResults = new();
+
+                foreach (var tableEntry in _tableEntries)
                 {
-                    Func<RandomItemEntry, bool> itemFilter = tableEntry.ItemFilter == null ? TryGetItemFilter() : tableEntry.ItemFilter;
-                    REFilters.LevelFilter levelFilter;
+                    accumulator += tableEntry.PercentChance;
 
-                    if (tableEntry.LevelFilter == null)
-                        levelFilter = TryGetLevelFilter();
-                    else
+                    if (roll <= accumulator)
                     {
-                        levelFilter = tableEntry.LevelFilter;
-                        levelFilter.Update();
-                    }
+                        Func<RandomItemEntry, bool> itemFilter = tableEntry.ItemFilter == null ? TryGetItemFilter() : tableEntry.ItemFilter;
+                        REFilters.LevelFilter levelFilter;
 
-                    if (levelFilter != null)
-                        CLog($"{(levelFilter.Modifier > 0 ? "+" : "")}{levelFilter.Modifier} level modifier rolled!");
-
-                    var tries = RulebookEvent.Dice.D(1, tableEntry.Tries);
-
-                    for (int i = 0; i < tries; i++)
-                    {
-                        rollResults.Add(new ItemResult()
+                        if (tableEntry.LevelFilter == null)
+                            levelFilter = TryGetLevelFilter();
+                        else
                         {
-                            Guid = RandomEquipmentHandler.Instance.GetRandom(itemFilter, levelFilter),
-                            Count = RulebookEvent.Dice.D(1, tableEntry.Amount)
-                        });
+                            levelFilter = tableEntry.LevelFilter;
+                            levelFilter.Update();
+                        }
+
+                        if (levelFilter != null)
+                            CLog($"{(levelFilter.Modifier > 0 ? "+" : "")}{levelFilter.Modifier} level modifier rolled!");
+
+                        var tries = RulebookEvent.Dice.D(1, tableEntry.Tries);
+
+                        for (int i = 0; i < tries; i++)
+                        {
+                            var bp = RandomEquipmentHandler.Instance.GetRandom(itemFilter, levelFilter);
+
+                            if (!bp.IsNullOrEmpty())
+                            {
+                                rollResults.Add(new ItemResult()
+                                {
+                                    Guid = bp,
+                                    Count = RulebookEvent.Dice.D(1, tableEntry.Amount)
+                                });
+                            }
+                        }
+                        break;
                     }
-                    break;
+                }
+
+                if (rollResults.Count != 0)
+                    result.AddRange(rollResults);
+                else
+                {
+                    VLog("No items added...");
+                    CLog("No items in your level range.");
                 }
             }
 
@@ -130,14 +151,6 @@ namespace WrathRandomEquipment.RandomEquipment
                 var r = table.Roll();
                 if (r != null && !r.Empty())
                     result.AddRange(r);
-            }
-
-            if (rollResults.Count != 0)
-                result.AddRange(rollResults);
-            else
-            {
-                VLog("No items added...");
-                CLog("No items in your level range.");
             }
 
             return result;

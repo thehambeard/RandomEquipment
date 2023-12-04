@@ -47,16 +47,22 @@ namespace WrathRandomEquipment.RandomEquipment
                 SettingKeys[key].Shift.Value,
                 (double)SettingKeys[key].Scale.Value));
 
-            return RandomLootTable.New("Equipment")
-                .SetChanceToRollTable(SettingKeys[key].Chance.Value)
+            return RandomLootTable.New("Random Loot")
+                .SetChanceToRollTable(100)
                 .SetDefaultLevelFilter(levelFilter)
-                .AddTableEntry(new
+                .AddSubTable
                 (
-                    percentChance: 100,
-                    amount: DiceType.One,
-                    tries: DiceType.One,
-                    itemFilter: REFilters.ItemFilters.AllExceptUsable
-                ))
+                    RandomLootTable.New("Equipment")
+                    .SetChanceToRollTable(SettingKeys[key].Chance.Value)
+                    .SetDefaultLevelFilter(levelFilter)
+                    .AddTableEntry(new
+                    (
+                        percentChance: 100,
+                        amount: DiceType.One,
+                        tries: DiceType.One,
+                        itemFilter: REFilters.ItemFilters.AllExceptUsable
+                    ))
+                )
                 .AddSubTable
                 (
                     RandomLootTable.New("Usables")
