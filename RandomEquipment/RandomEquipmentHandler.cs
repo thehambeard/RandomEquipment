@@ -52,7 +52,7 @@ namespace WrathRandomEquipment.RandomEquipment
             {
                 _playerGuid = Game.Instance.Player.GameId;
 
-                var path = Path.Combine(Main.ModPath, "UsedLists", $"{Game.Instance.Player.MainCharacter.Value.CharacterName}_{_playerGuid}_{_fileName}");
+                var path = Path.Combine(Main.ModEntry.Path, "UsedLists", $"{Game.Instance.Player.MainCharacter.Value.CharacterName}_{_playerGuid}_{_fileName}");
 
                 if (File.Exists(path))
                     UsedItems = JSON.FromJSON<HashSet<string>>(File.ReadAllText(path));
@@ -63,7 +63,7 @@ namespace WrathRandomEquipment.RandomEquipment
 
         public void Save()
         {
-            var path = Path.Combine(Main.ModPath, "UsedLists");
+            var path = Path.Combine(Main.ModEntry.Path, "UsedLists");
 
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);

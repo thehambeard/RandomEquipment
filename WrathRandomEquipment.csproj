@@ -321,6 +321,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="Patches\Saves.cs" />
     <Compile Include="Patches\Settings.cs" />
+    <Compile Include="Patches\ToyBox.cs" />
     <Compile Include="RandomEquipment\EntityLootHandler.cs" />
     <Compile Include="RandomEquipment\LootListDownloader.cs" />
     <Compile Include="REModMenu\CurveDescriptionUpdater.cs" />

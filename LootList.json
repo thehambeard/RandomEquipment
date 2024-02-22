@@ -27936,6 +27936,1294 @@
       "CR": 34,
       "Cost": 523315,
       "Type": 1
+    },
+    "7f70b0fe5a80478585e2760db9cb75b7": {
+      "GUID": "7f70b0fe5a80478585e2760db9cb75b7",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9760,
+      "Type": 2
+    },
+    "196ff6e8bf104a40b427ed2a8d389907": {
+      "GUID": "196ff6e8bf104a40b427ed2a8d389907",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9800,
+      "Type": 2
+    },
+    "e0f5932f270b42f4906bd7684af6ebdd": {
+      "GUID": "e0f5932f270b42f4906bd7684af6ebdd",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9800,
+      "Type": 2
+    },
+    "980ed8dc52e545d4aca16b28185e9c31": {
+      "GUID": "980ed8dc52e545d4aca16b28185e9c31",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16760,
+      "Type": 2
+    },
+    "5d1ea277957b41f2b6c7e7f3b9973e78": {
+      "GUID": "5d1ea277957b41f2b6c7e7f3b9973e78",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16800,
+      "Type": 2
+    },
+    "b4b8fce2cdc74929a3154d9957b47f78": {
+      "GUID": "b4b8fce2cdc74929a3154d9957b47f78",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16800,
+      "Type": 2
+    },
+    "ab871a2ecb5548f48635e83f149fbb35": {
+      "GUID": "ab871a2ecb5548f48635e83f149fbb35",
+      "CL": 1,
+      "CR": 16,
+      "Cost": 35000,
+      "Type": 3
+    },
+    "a76cb1559cdc4d0f8fe953bac0629855": {
+      "GUID": "a76cb1559cdc4d0f8fe953bac0629855",
+      "CL": 1,
+      "CR": 1,
+      "Cost": 20,
+      "Type": 3
+    },
+    "d0552e5dd29d49568cebfb8fd2335486": {
+      "GUID": "d0552e5dd29d49568cebfb8fd2335486",
+      "CL": 1,
+      "CR": 20,
+      "Cost": 64000,
+      "Type": 8
+    },
+    "15920d47a9e64669936e3c2030a6095d": {
+      "GUID": "15920d47a9e64669936e3c2030a6095d",
+      "CL": 1,
+      "CR": 21,
+      "Cost": 71000,
+      "Type": 8
+    },
+    "edab1a1ee8654810aca64df16dd87aae": {
+      "GUID": "edab1a1ee8654810aca64df16dd87aae",
+      "CL": 1,
+      "CR": 2,
+      "Cost": 1000,
+      "Type": 8
+    },
+    "2de5a759c20544a0abaf04576e9e49f7": {
+      "GUID": "2de5a759c20544a0abaf04576e9e49f7",
+      "CL": 1,
+      "CR": 23,
+      "Cost": 95000,
+      "Type": 8
+    },
+    "3f3aa97c9a1c46d5a8b3a3c22a5727db": {
+      "GUID": "3f3aa97c9a1c46d5a8b3a3c22a5727db",
+      "CL": 1,
+      "CR": 14,
+      "Cost": 25000,
+      "Type": 8
+    },
+    "2fe3c072b1054fbea6019c5b5db41403": {
+      "GUID": "2fe3c072b1054fbea6019c5b5db41403",
+      "CL": 1,
+      "CR": 22,
+      "Cost": 86000,
+      "Type": 8
+    },
+    "54cbc6480de54d49b277d2686a98b4fb": {
+      "GUID": "54cbc6480de54d49b277d2686a98b4fb",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16000,
+      "Type": 8
+    },
+    "4e98e92f49024c529cb2afa01fc63b0e": {
+      "GUID": "4e98e92f49024c529cb2afa01fc63b0e",
+      "CL": 1,
+      "CR": 22,
+      "Cost": 81000,
+      "Type": 8
+    },
+    "d390ae6685094218b1abd48919b73764": {
+      "GUID": "d390ae6685094218b1abd48919b73764",
+      "CL": 1,
+      "CR": 21,
+      "Cost": 74000,
+      "Type": 8
+    },
+    "f548bd21606344f0963c0ae374946d39": {
+      "GUID": "f548bd21606344f0963c0ae374946d39",
+      "CL": 1,
+      "CR": 5,
+      "Cost": 4000,
+      "Type": 8
+    },
+    "778b25032e7343ba856326bf7f3dfeab": {
+      "GUID": "778b25032e7343ba856326bf7f3dfeab",
+      "CL": 1,
+      "CR": 18,
+      "Cost": 49000,
+      "Type": 8
+    },
+    "6bc4f0bc278f48dd85821e3913ccffb5": {
+      "GUID": "6bc4f0bc278f48dd85821e3913ccffb5",
+      "CL": 1,
+      "CR": 23,
+      "Cost": 106000,
+      "Type": 8
+    },
+    "8103f79802eb4ec59c373829ff5907a1": {
+      "GUID": "8103f79802eb4ec59c373829ff5907a1",
+      "CL": 1,
+      "CR": 16,
+      "Cost": 36000,
+      "Type": 8
+    },
+    "7c861deccf5640f0a99bf0c034231465": {
+      "GUID": "7c861deccf5640f0a99bf0c034231465",
+      "CL": 1,
+      "CR": 21,
+      "Cost": 79000,
+      "Type": 8
+    },
+    "d2d4b585db9f43698d183437f20bd8de": {
+      "GUID": "d2d4b585db9f43698d183437f20bd8de",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9000,
+      "Type": 8
+    },
+    "7e806d1df3544391ae07f7765d3c805f": {
+      "GUID": "7e806d1df3544391ae07f7765d3c805f",
+      "CL": 3,
+      "CR": 1,
+      "Cost": 100,
+      "Type": 5
+    },
+    "213089027c064b38a2727fb459033106": {
+      "GUID": "213089027c064b38a2727fb459033106",
+      "CL": 1,
+      "CR": 2,
+      "Cost": 750,
+      "Type": 8
+    },
+    "1c257c00832d48a6a97340a15cc18d7e": {
+      "GUID": "1c257c00832d48a6a97340a15cc18d7e",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 20000,
+      "Type": 4
+    },
+    "2f09c68b1d0b4754a5f11666f74a8312": {
+      "GUID": "2f09c68b1d0b4754a5f11666f74a8312",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19000,
+      "Type": 1
+    },
+    "a113c68406d74e37951717e417840bfa": {
+      "GUID": "a113c68406d74e37951717e417840bfa",
+      "CL": 11,
+      "CR": 14,
+      "Cost": 24000,
+      "Type": 4
+    },
+    "9b2b2a852fe84c56b0d26e2535151917": {
+      "GUID": "9b2b2a852fe84c56b0d26e2535151917",
+      "CL": 0,
+      "CR": 6,
+      "Cost": 5000,
+      "Type": 8
+    },
+    "22a21d0f9a8548908a1b1a62161ef051": {
+      "GUID": "22a21d0f9a8548908a1b1a62161ef051",
+      "CL": 1,
+      "CR": 18,
+      "Cost": 50000,
+      "Type": 1
+    },
+    "a86705d7f59246b49ea28f5e269c570a": {
+      "GUID": "a86705d7f59246b49ea28f5e269c570a",
+      "CL": 6,
+      "CR": 1,
+      "Cost": 150,
+      "Type": 8
+    },
+    "1d7388505f0b43c29ebc7b8d1823cdbc": {
+      "GUID": "1d7388505f0b43c29ebc7b8d1823cdbc",
+      "CL": 3,
+      "CR": 1,
+      "Cost": 150,
+      "Type": 6
+    },
+    "57716b40e58d4736a349226ab6d5e34a": {
+      "GUID": "57716b40e58d4736a349226ab6d5e34a",
+      "CL": 5,
+      "CR": 2,
+      "Cost": 375,
+      "Type": 6
+    },
+    "0af21c83780e48f38dc50fb24ea172d6": {
+      "GUID": "0af21c83780e48f38dc50fb24ea172d6",
+      "CL": 15,
+      "CR": 5,
+      "Cost": 3000,
+      "Type": 6
+    },
+    "ea028d6a909c4a1a9c9769b7c185a2e3": {
+      "GUID": "ea028d6a909c4a1a9c9769b7c185a2e3",
+      "CL": 15,
+      "CR": 5,
+      "Cost": 3000,
+      "Type": 6
+    },
+    "90c765525880465da4e2c15ff2d44bc9": {
+      "GUID": "90c765525880465da4e2c15ff2d44bc9",
+      "CL": 13,
+      "CR": 16,
+      "Cost": 34000,
+      "Type": 8
+    },
+    "a01555c46b2a4473bd1d45ce415f96f7": {
+      "GUID": "a01555c46b2a4473bd1d45ce415f96f7",
+      "CL": 13,
+      "CR": 21,
+      "Cost": 75000,
+      "Type": 8
+    },
+    "7d470e46e61143ada87e8d4857bf0a4d": {
+      "GUID": "7d470e46e61143ada87e8d4857bf0a4d",
+      "CL": 20,
+      "CR": 1,
+      "Cost": 250,
+      "Type": 8
+    },
+    "a1c135e85c3f44b4bcc82de8cab61539": {
+      "GUID": "a1c135e85c3f44b4bcc82de8cab61539",
+      "CL": 5,
+      "CR": 10,
+      "Cost": 11250,
+      "Type": 7
+    },
+    "4d40781982594f1f9b0de558521a261c": {
+      "GUID": "4d40781982594f1f9b0de558521a261c",
+      "CL": 1,
+      "CR": 28,
+      "Cost": 200000,
+      "Type": 1
+    },
+    "371113ed05ba49feb78adf926ee3430b": {
+      "GUID": "371113ed05ba49feb78adf926ee3430b",
+      "CL": 1,
+      "CR": 23,
+      "Cost": 100000,
+      "Type": 8
+    },
+    "886f083712254094b42d0ecfcf2aec51": {
+      "GUID": "886f083712254094b42d0ecfcf2aec51",
+      "CL": 1,
+      "CR": 1,
+      "Cost": 150,
+      "Type": 5
+    },
+    "d13cdbccd89d4e7c8396d076a73d731e": {
+      "GUID": "d13cdbccd89d4e7c8396d076a73d731e",
+      "CL": 20,
+      "CR": 11,
+      "Cost": 15000,
+      "Type": 8
+    },
+    "3edef9a9d83b4c7682601afad091e8b3": {
+      "GUID": "3edef9a9d83b4c7682601afad091e8b3",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9235,
+      "Type": 1
+    },
+    "bba9b80deeff44c6837253c7998bb9b9": {
+      "GUID": "bba9b80deeff44c6837253c7998bb9b9",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "4ccbcc28b90a4ffa8808673e942ebbe2": {
+      "GUID": "4ccbcc28b90a4ffa8808673e942ebbe2",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9252,
+      "Type": 1
+    },
+    "31c7642f2cd34096af3635ccd840928e": {
+      "GUID": "31c7642f2cd34096af3635ccd840928e",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9240,
+      "Type": 1
+    },
+    "10eca6e897fd4cd0923c9d14c04a8bf2": {
+      "GUID": "10eca6e897fd4cd0923c9d14c04a8bf2",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9252,
+      "Type": 1
+    },
+    "6cb901b321ff4713aa826950bbc53f7c": {
+      "GUID": "6cb901b321ff4713aa826950bbc53f7c",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9276,
+      "Type": 1
+    },
+    "6d350db873664858a7b694fb38f92d4e": {
+      "GUID": "6d350db873664858a7b694fb38f92d4e",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "31cdd2b5fc664cc1b32174849ccd1dec": {
+      "GUID": "31cdd2b5fc664cc1b32174849ccd1dec",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9212,
+      "Type": 1
+    },
+    "20eb086cbe1e43948bfaffb3d046e443": {
+      "GUID": "20eb086cbe1e43948bfaffb3d046e443",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "5ba372e4e9d444a0b29d845b142efd58": {
+      "GUID": "5ba372e4e9d444a0b29d845b142efd58",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "d64a40c2bd834481954d94fda6420dde": {
+      "GUID": "d64a40c2bd834481954d94fda6420dde",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "51725fd44f4e4205a93f885fc81dcc2b": {
+      "GUID": "51725fd44f4e4205a93f885fc81dcc2b",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "0844fa34995145109d00ae6961214ba0": {
+      "GUID": "0844fa34995145109d00ae6961214ba0",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "6823945bc7a744be8e690421f9807ffd": {
+      "GUID": "6823945bc7a744be8e690421f9807ffd",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "0783fe489fac433eb0bac23086914355": {
+      "GUID": "0783fe489fac433eb0bac23086914355",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "0c446aac9b7f4ac2b770653261705197": {
+      "GUID": "0c446aac9b7f4ac2b770653261705197",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9208,
+      "Type": 1
+    },
+    "41f7f54d49d24e58968d976b57dc382f": {
+      "GUID": "41f7f54d49d24e58968d976b57dc382f",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "9023139431ff45f7bb2ec02e705fcf50": {
+      "GUID": "9023139431ff45f7bb2ec02e705fcf50",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9216,
+      "Type": 1
+    },
+    "c008206659c24400ae9574e9d7c6326f": {
+      "GUID": "c008206659c24400ae9574e9d7c6326f",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19235,
+      "Type": 1
+    },
+    "02e4301e0ba14db0a39a4370ec92fcd9": {
+      "GUID": "02e4301e0ba14db0a39a4370ec92fcd9",
+      "CL": 1,
+      "CR": 1,
+      "Cost": 0,
+      "Type": 1
+    },
+    "629374c7000044618baf498b3d96f511": {
+      "GUID": "629374c7000044618baf498b3d96f511",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "9b0dd1e61f4a4360bd27957ff99105bf": {
+      "GUID": "9b0dd1e61f4a4360bd27957ff99105bf",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19252,
+      "Type": 1
+    },
+    "3ee445ca38464e11b8f0add658ed6f90": {
+      "GUID": "3ee445ca38464e11b8f0add658ed6f90",
+      "CL": 1,
+      "CR": 1,
+      "Cost": 0,
+      "Type": 1
+    },
+    "36f5b8b41bbf43b1a8ac83a6712f5598": {
+      "GUID": "36f5b8b41bbf43b1a8ac83a6712f5598",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19240,
+      "Type": 1
+    },
+    "8056118854e9441f9f79b28852a78533": {
+      "GUID": "8056118854e9441f9f79b28852a78533",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19252,
+      "Type": 1
+    },
+    "7134485c68894c2e8b9bb0a3702913ad": {
+      "GUID": "7134485c68894c2e8b9bb0a3702913ad",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "002bd58b93274e4181cc056e10b376e7": {
+      "GUID": "002bd58b93274e4181cc056e10b376e7",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19276,
+      "Type": 1
+    },
+    "32a085c648ff490eac488845a4747e78": {
+      "GUID": "32a085c648ff490eac488845a4747e78",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "f81ac3691954422d9b83c7427abe6db9": {
+      "GUID": "f81ac3691954422d9b83c7427abe6db9",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19212,
+      "Type": 1
+    },
+    "01a57c83688e497fbe0331e8e60b1899": {
+      "GUID": "01a57c83688e497fbe0331e8e60b1899",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "bb58fb6c6341459286bd20129f6a1438": {
+      "GUID": "bb58fb6c6341459286bd20129f6a1438",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "f10e88d1f65a4a209da3e59bec1952c2": {
+      "GUID": "f10e88d1f65a4a209da3e59bec1952c2",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "942595ad9385481181c8a96e59a9c29c": {
+      "GUID": "942595ad9385481181c8a96e59a9c29c",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "39ca434299a64350acd4026b22fd8f57": {
+      "GUID": "39ca434299a64350acd4026b22fd8f57",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "df1e25a08ca4462db87f6ada6e0440f0": {
+      "GUID": "df1e25a08ca4462db87f6ada6e0440f0",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "ed6133d5b2634b0ab216e3eaf271489c": {
+      "GUID": "ed6133d5b2634b0ab216e3eaf271489c",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "7c3d08c2ada647019e64611c2a93e086": {
+      "GUID": "7c3d08c2ada647019e64611c2a93e086",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19208,
+      "Type": 1
+    },
+    "bd75f3ca977a4ca1af3a176025e22aba": {
+      "GUID": "bd75f3ca977a4ca1af3a176025e22aba",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "6bd61a4c9935451fa70e02ec42d143ae": {
+      "GUID": "6bd61a4c9935451fa70e02ec42d143ae",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19216,
+      "Type": 1
+    },
+    "ec22ba6e1b574ac696af44db65216e65": {
+      "GUID": "ec22ba6e1b574ac696af44db65216e65",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 10250,
+      "Type": 2
+    },
+    "476630c318694184a24b4ed2841ac445": {
+      "GUID": "476630c318694184a24b4ed2841ac445",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9900,
+      "Type": 2
+    },
+    "62eb53e87fdd4c0cbad1636820e292c6": {
+      "GUID": "62eb53e87fdd4c0cbad1636820e292c6",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9900,
+      "Type": 2
+    },
+    "b89b302cd157445ea315b5b1148e12e5": {
+      "GUID": "b89b302cd157445ea315b5b1148e12e5",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9850,
+      "Type": 2
+    },
+    "c9c5e1f26b1b4d06b504a516e17a799e": {
+      "GUID": "c9c5e1f26b1b4d06b504a516e17a799e",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 17250,
+      "Type": 2
+    },
+    "667bfcfe6ac645b3ae00760aea508a0f": {
+      "GUID": "667bfcfe6ac645b3ae00760aea508a0f",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16900,
+      "Type": 2
+    },
+    "343eb5b843b14e9e8f1cdcb14872a511": {
+      "GUID": "343eb5b843b14e9e8f1cdcb14872a511",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16900,
+      "Type": 2
+    },
+    "391efb43a4e74422b6f234e7e9c8a73c": {
+      "GUID": "391efb43a4e74422b6f234e7e9c8a73c",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16850,
+      "Type": 2
+    },
+    "23f2276b66424e299ccc826417cc0e7b": {
+      "GUID": "23f2276b66424e299ccc826417cc0e7b",
+      "CL": 1,
+      "CR": 3,
+      "Cost": 1350,
+      "Type": 2
+    },
+    "3a72bcad66764e3e888d2d0b5ace8dc7": {
+      "GUID": "3a72bcad66764e3e888d2d0b5ace8dc7",
+      "CL": 1,
+      "CR": 2,
+      "Cost": 400,
+      "Type": 1
+    },
+    "3f9b0ab80b384523ae73b949eec82380": {
+      "GUID": "3f9b0ab80b384523ae73b949eec82380",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9212,
+      "Type": 1
+    },
+    "709a2ef09f45429091ab560aebb1f1aa": {
+      "GUID": "709a2ef09f45429091ab560aebb1f1aa",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9212,
+      "Type": 1
+    },
+    "cc4e6a46b9b148819d7e1812578582a0": {
+      "GUID": "cc4e6a46b9b148819d7e1812578582a0",
+      "CL": 1,
+      "CR": 3,
+      "Cost": 1600,
+      "Type": 1
+    },
+    "c3c7e90f21b04521a13a587f5e62f3a1": {
+      "GUID": "c3c7e90f21b04521a13a587f5e62f3a1",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9300,
+      "Type": 1
+    },
+    "fe39d0a0c51f49ba810b361e54ab594c": {
+      "GUID": "fe39d0a0c51f49ba810b361e54ab594c",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9232,
+      "Type": 1
+    },
+    "0cec5e57c8154590957dafa158878e08": {
+      "GUID": "0cec5e57c8154590957dafa158878e08",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "4ff615658a104c799746f04e6213e669": {
+      "GUID": "4ff615658a104c799746f04e6213e669",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9208,
+      "Type": 1
+    },
+    "952425362cbc4261a7c062a51a5fb09c": {
+      "GUID": "952425362cbc4261a7c062a51a5fb09c",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "2746d52f119f4ca0952d753e2fe34059": {
+      "GUID": "2746d52f119f4ca0952d753e2fe34059",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9216,
+      "Type": 1
+    },
+    "c5a66dc7c0bc46f8bb4019c5481c0612": {
+      "GUID": "c5a66dc7c0bc46f8bb4019c5481c0612",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9208,
+      "Type": 1
+    },
+    "b0679f0d432d43adb7db21aacafb7b4b": {
+      "GUID": "b0679f0d432d43adb7db21aacafb7b4b",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9204,
+      "Type": 1
+    },
+    "706569a5b13745d2941ff1a54caf3811": {
+      "GUID": "706569a5b13745d2941ff1a54caf3811",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "0bd4f003c0e44d048870021c67535a91": {
+      "GUID": "0bd4f003c0e44d048870021c67535a91",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9216,
+      "Type": 1
+    },
+    "1ca0e05d29a4494fa89ac53858f4490e": {
+      "GUID": "1ca0e05d29a4494fa89ac53858f4490e",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9220,
+      "Type": 1
+    },
+    "efb40519cf8f4833b046a8037114a273": {
+      "GUID": "efb40519cf8f4833b046a8037114a273",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9212,
+      "Type": 1
+    },
+    "d9db41f0be1d463aaf78a54e327dc776": {
+      "GUID": "d9db41f0be1d463aaf78a54e327dc776",
+      "CL": 1,
+      "CR": 3,
+      "Cost": 1600,
+      "Type": 1
+    },
+    "43eab676ac554ba3ac2b2504822d9d09": {
+      "GUID": "43eab676ac554ba3ac2b2504822d9d09",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9224,
+      "Type": 1
+    },
+    "0d603a735deb4a8b91598eed887242d5": {
+      "GUID": "0d603a735deb4a8b91598eed887242d5",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19212,
+      "Type": 1
+    },
+    "23c3192d4ba94153a9aae4564a97853b": {
+      "GUID": "23c3192d4ba94153a9aae4564a97853b",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19212,
+      "Type": 1
+    },
+    "ad3123cd06e04915a763efcbb1c821ad": {
+      "GUID": "ad3123cd06e04915a763efcbb1c821ad",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19300,
+      "Type": 1
+    },
+    "0e71100f9688447ca759b80569fe96f8": {
+      "GUID": "0e71100f9688447ca759b80569fe96f8",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19232,
+      "Type": 1
+    },
+    "7219f14339f440e7a3b2e62a9716f3fa": {
+      "GUID": "7219f14339f440e7a3b2e62a9716f3fa",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "964d3a50c99f4dbbbeef2b0f6843915b": {
+      "GUID": "964d3a50c99f4dbbbeef2b0f6843915b",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19216,
+      "Type": 1
+    },
+    "73e7a7cf133342f78d1eb13533a4a2e4": {
+      "GUID": "73e7a7cf133342f78d1eb13533a4a2e4",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19208,
+      "Type": 1
+    },
+    "077d2253589b408aace5f043b90c84ad": {
+      "GUID": "077d2253589b408aace5f043b90c84ad",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19204,
+      "Type": 1
+    },
+    "fe086469c92c431b8cbfdda4a10b71de": {
+      "GUID": "fe086469c92c431b8cbfdda4a10b71de",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19216,
+      "Type": 1
+    },
+    "968e63ee0f7c40f3af95c64994c79f7a": {
+      "GUID": "968e63ee0f7c40f3af95c64994c79f7a",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "b0e004d9d42d4a93bd8a3aee083ef481": {
+      "GUID": "b0e004d9d42d4a93bd8a3aee083ef481",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19212,
+      "Type": 1
+    },
+    "8f94ac2b336a4b3495e3c807135b84bc": {
+      "GUID": "8f94ac2b336a4b3495e3c807135b84bc",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19224,
+      "Type": 1
+    },
+    "559fdfe9241a4000925535760dcbca88": {
+      "GUID": "559fdfe9241a4000925535760dcbca88",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 10600,
+      "Type": 2
+    },
+    "f9b2dc3b036e4123abbbc7f44660a3d2": {
+      "GUID": "f9b2dc3b036e4123abbbc7f44660a3d2",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 17600,
+      "Type": 2
+    },
+    "38a527f0f0f04cfc87c1bec89b3d423e": {
+      "GUID": "38a527f0f0f04cfc87c1bec89b3d423e",
+      "CL": 15,
+      "CR": 5,
+      "Cost": 3150,
+      "Type": 7
+    },
+    "be863e5e51894eb0a832e75b24e71e70": {
+      "GUID": "be863e5e51894eb0a832e75b24e71e70",
+      "CL": 1,
+      "CR": 3,
+      "Cost": 1250,
+      "Type": 4
+    },
+    "d3712e7e176f42bcac114ee606475b81": {
+      "GUID": "d3712e7e176f42bcac114ee606475b81",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9950,
+      "Type": 2
+    },
+    "bf1928b0e1c64b2d9b447fd4b78eb1ab": {
+      "GUID": "bf1928b0e1c64b2d9b447fd4b78eb1ab",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9850,
+      "Type": 2
+    },
+    "46d481e6ebc04044b3a3c08e0c3d2f78": {
+      "GUID": "46d481e6ebc04044b3a3c08e0c3d2f78",
+      "CL": 1,
+      "CR": 10,
+      "Cost": 11500,
+      "Type": 2
+    },
+    "0021a312f4be4ca18e926da850a49a05": {
+      "GUID": "0021a312f4be4ca18e926da850a49a05",
+      "CL": 1,
+      "CR": 10,
+      "Cost": 11500,
+      "Type": 2
+    },
+    "84a2cc4aa928493087dcfa158b3f9d98": {
+      "GUID": "84a2cc4aa928493087dcfa158b3f9d98",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16950,
+      "Type": 2
+    },
+    "741e5ae153c440e6b41ff9da3a27685a": {
+      "GUID": "741e5ae153c440e6b41ff9da3a27685a",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16850,
+      "Type": 2
+    },
+    "ab64798aacb94e879e7ed2484154ac14": {
+      "GUID": "ab64798aacb94e879e7ed2484154ac14",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 18500,
+      "Type": 2
+    },
+    "91d99802340f4131a28c88d1cd994241": {
+      "GUID": "91d99802340f4131a28c88d1cd994241",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 18500,
+      "Type": 2
+    },
+    "fbde60368d444717b6f67bb0844b2985": {
+      "GUID": "fbde60368d444717b6f67bb0844b2985",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9930,
+      "Type": 3
+    },
+    "a290a20212e4463d9102b58c9a1487bf": {
+      "GUID": "a290a20212e4463d9102b58c9a1487bf",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16930,
+      "Type": 3
+    },
+    "5034c9737b1c4ee8a1bedba7c561bf21": {
+      "GUID": "5034c9737b1c4ee8a1bedba7c561bf21",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9260,
+      "Type": 1
+    },
+    "14f63d58d0394f2e8b25d2904fb62b31": {
+      "GUID": "14f63d58d0394f2e8b25d2904fb62b31",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9280,
+      "Type": 1
+    },
+    "fe9933db45274f61bdad7306e079b00f": {
+      "GUID": "fe9933db45274f61bdad7306e079b00f",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9214,
+      "Type": 1
+    },
+    "8dc2b6628fa646c18e6be245ef909a77": {
+      "GUID": "8dc2b6628fa646c18e6be245ef909a77",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9208,
+      "Type": 1
+    },
+    "d37fbbf11055457fa26bbae8f70f2d5f": {
+      "GUID": "d37fbbf11055457fa26bbae8f70f2d5f",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9250,
+      "Type": 1
+    },
+    "ef364e2f30be4ed1a7564d3f1fdc0ed6": {
+      "GUID": "ef364e2f30be4ed1a7564d3f1fdc0ed6",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9206,
+      "Type": 1
+    },
+    "1dac93cb53024a60b3299bf359bcf388": {
+      "GUID": "1dac93cb53024a60b3299bf359bcf388",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9208,
+      "Type": 1
+    },
+    "5d0958814380466b81e14088a5a09515": {
+      "GUID": "5d0958814380466b81e14088a5a09515",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9215,
+      "Type": 1
+    },
+    "31d9776a49034b0cba2dd5a5a33d4e96": {
+      "GUID": "31d9776a49034b0cba2dd5a5a33d4e96",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 9212,
+      "Type": 1
+    },
+    "86fd054554914a98abbed1fdf36238ec": {
+      "GUID": "86fd054554914a98abbed1fdf36238ec",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19202,
+      "Type": 1
+    },
+    "2dd62fc6b092486483469a47796ee3e3": {
+      "GUID": "2dd62fc6b092486483469a47796ee3e3",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19260,
+      "Type": 1
+    },
+    "194cb38de25e4c66acf35603c09af7ef": {
+      "GUID": "194cb38de25e4c66acf35603c09af7ef",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19280,
+      "Type": 1
+    },
+    "326f3bb3b9d24dada686894aeafb740a": {
+      "GUID": "326f3bb3b9d24dada686894aeafb740a",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19214,
+      "Type": 1
+    },
+    "2b6808d57e2147fa988b1db6a540aae9": {
+      "GUID": "2b6808d57e2147fa988b1db6a540aae9",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19208,
+      "Type": 1
+    },
+    "f4ef937eaf1146d2a5e6132c4ee8ada5": {
+      "GUID": "f4ef937eaf1146d2a5e6132c4ee8ada5",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19208,
+      "Type": 1
+    },
+    "b34d29c10f9c4695af0d83e7480663a9": {
+      "GUID": "b34d29c10f9c4695af0d83e7480663a9",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19250,
+      "Type": 1
+    },
+    "ba42387c7dce426c891672646515cddf": {
+      "GUID": "ba42387c7dce426c891672646515cddf",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19206,
+      "Type": 1
+    },
+    "e478fccae6de40498bcd7986699f0d80": {
+      "GUID": "e478fccae6de40498bcd7986699f0d80",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19208,
+      "Type": 1
+    },
+    "69b3fb5d3f6b4c71932bbb012535a222": {
+      "GUID": "69b3fb5d3f6b4c71932bbb012535a222",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19215,
+      "Type": 1
+    },
+    "403e26eba0ad4c5290460f02271b9d2a": {
+      "GUID": "403e26eba0ad4c5290460f02271b9d2a",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19220,
+      "Type": 1
+    },
+    "8826967af31848c7a3be5776c5da3f61": {
+      "GUID": "8826967af31848c7a3be5776c5da3f61",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19206,
+      "Type": 1
+    },
+    "c48204ebbc884bf48fbc447d548c4839": {
+      "GUID": "c48204ebbc884bf48fbc447d548c4839",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19212,
+      "Type": 1
+    },
+    "fd8e043dd85848108e4e6c1f3034f709": {
+      "GUID": "fd8e043dd85848108e4e6c1f3034f709",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16000,
+      "Type": 4
+    },
+    "2bf3589bf5104c4789ac7071192cd256": {
+      "GUID": "2bf3589bf5104c4789ac7071192cd256",
+      "CL": 1,
+      "CR": 9,
+      "Cost": 8000,
+      "Type": 4
+    },
+    "37ad1af13a5245d8a9da355d65143bf0": {
+      "GUID": "37ad1af13a5245d8a9da355d65143bf0",
+      "CL": 9,
+      "CR": 12,
+      "Cost": 16800,
+      "Type": 1
+    },
+    "2609206f8cd941f2af8901d609702393": {
+      "GUID": "2609206f8cd941f2af8901d609702393",
+      "CL": 10,
+      "CR": 17,
+      "Cost": 40000,
+      "Type": 4
+    },
+    "48c1a9cbd64944ee9474f6581ba01eb0": {
+      "GUID": "48c1a9cbd64944ee9474f6581ba01eb0",
+      "CL": 1,
+      "CR": 10,
+      "Cost": 9905,
+      "Type": 3
+    },
+    "6e935fd4475241a38c6ee5bc1a86520f": {
+      "GUID": "6e935fd4475241a38c6ee5bc1a86520f",
+      "CL": 1,
+      "CR": 10,
+      "Cost": 9920,
+      "Type": 3
+    },
+    "397412c3132d40429f7a5cb15b7e60d7": {
+      "GUID": "397412c3132d40429f7a5cb15b7e60d7",
+      "CL": 1,
+      "CR": 10,
+      "Cost": 9910,
+      "Type": 3
+    },
+    "85a55ba689e148edb9cbafa89f1e89f8": {
+      "GUID": "85a55ba689e148edb9cbafa89f1e89f8",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16905,
+      "Type": 3
+    },
+    "6bafbb55c421439fbff2ae0e4aa69d08": {
+      "GUID": "6bafbb55c421439fbff2ae0e4aa69d08",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16920,
+      "Type": 3
+    },
+    "d1266897c40f4843a23fc85c42528f06": {
+      "GUID": "d1266897c40f4843a23fc85c42528f06",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 16910,
+      "Type": 3
+    },
+    "181d1707fef74eab8acfba2b10a0265f": {
+      "GUID": "181d1707fef74eab8acfba2b10a0265f",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 20000,
+      "Type": 1
+    },
+    "4eeecd3170cd4127a84c36e6ce77547b": {
+      "GUID": "4eeecd3170cd4127a84c36e6ce77547b",
+      "CL": 1,
+      "CR": 14,
+      "Cost": 25000,
+      "Type": 4
+    },
+    "e4b1641d66894a7282e910e0fe6b2cd9": {
+      "GUID": "e4b1641d66894a7282e910e0fe6b2cd9",
+      "CL": 1,
+      "CR": 15,
+      "Cost": 28500,
+      "Type": 1
+    },
+    "d6a163ab5229413eaec890e06ef3bb00": {
+      "GUID": "d6a163ab5229413eaec890e06ef3bb00",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 18500,
+      "Type": 1
+    },
+    "7fb5bdd4809d4245b62c24e98edb5e1f": {
+      "GUID": "7fb5bdd4809d4245b62c24e98edb5e1f",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 18000,
+      "Type": 1
+    },
+    "e148591ac5ad4a9e9369523be6d8a0ee": {
+      "GUID": "e148591ac5ad4a9e9369523be6d8a0ee",
+      "CL": 15,
+      "CR": 10,
+      "Cost": 12000,
+      "Type": 4
+    },
+    "a6e396af75134189805e02f73c61b17b": {
+      "GUID": "a6e396af75134189805e02f73c61b17b",
+      "CL": 1,
+      "CR": 11,
+      "Cost": 15000,
+      "Type": 4
+    },
+    "08d4527728b141d7b7202e5faab798fe": {
+      "GUID": "08d4527728b141d7b7202e5faab798fe",
+      "CL": 1,
+      "CR": 12,
+      "Cost": 18500,
+      "Type": 1
+    },
+    "5ad95896c2b34d6a9930c19f2b7ce498": {
+      "GUID": "5ad95896c2b34d6a9930c19f2b7ce498",
+      "CL": 1,
+      "CR": 11,
+      "Cost": 15000,
+      "Type": 1
+    },
+    "4ab5312f11b748b6a4492cb8bb4c0cfd": {
+      "GUID": "4ab5312f11b748b6a4492cb8bb4c0cfd",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19200,
+      "Type": 1
+    },
+    "7568156f4cd94875899f1f1fc2cfb85f": {
+      "GUID": "7568156f4cd94875899f1f1fc2cfb85f",
+      "CL": 1,
+      "CR": 11,
+      "Cost": 10000,
+      "Type": 2
+    },
+    "0f13f6d2f58d4595a5e1972ec65d150f": {
+      "GUID": "0f13f6d2f58d4595a5e1972ec65d150f",
+      "CL": 15,
+      "CR": 11,
+      "Cost": 8250,
+      "Type": 8
+    },
+    "01611c3a767f4716bd0b7f82ced0627e": {
+      "GUID": "01611c3a767f4716bd0b7f82ced0627e",
+      "CL": 10,
+      "CR": 12,
+      "Cost": 15000,
+      "Type": 4
+    },
+    "bef16b6a266047569c6de94d8dd783ed": {
+      "GUID": "bef16b6a266047569c6de94d8dd783ed",
+      "CL": 12,
+      "CR": 12,
+      "Cost": 15000,
+      "Type": 4
+    },
+    "cffc4037c224475ca2a0c0b6bfda8688": {
+      "GUID": "cffc4037c224475ca2a0c0b6bfda8688",
+      "CL": 1,
+      "CR": 13,
+      "Cost": 19000,
+      "Type": 1
+    },
+    "94413fd5856c444aab1958d5edde47dc": {
+      "GUID": "94413fd5856c444aab1958d5edde47dc",
+      "CL": 1,
+      "CR": 18,
+      "Cost": 50000,
+      "Type": 1
+    },
+    "a6fca678ea7747d7988adeba3c4a7def": {
+      "GUID": "a6fca678ea7747d7988adeba3c4a7def",
+      "CL": 20,
+      "CR": 20,
+      "Cost": 32000,
+      "Type": 1
     }
   }
 }

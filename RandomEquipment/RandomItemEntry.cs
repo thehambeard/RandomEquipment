@@ -62,7 +62,7 @@ namespace WrathRandomEquipment.RandomEquipment
 
         public void Load()
         {
-            Items = JSON.FromJSON<RandomItemDictionary>(File.ReadAllText($@"{Main.ModPath}/LootList.json")).Items;
+            Items = JSON.FromJSON<RandomItemDictionary>(File.ReadAllText($@"{Main.ModEntry.Path}/LootList.json")).Items;
         }
     }
 }

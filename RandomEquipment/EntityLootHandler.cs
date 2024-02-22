@@ -12,14 +12,17 @@ namespace WrathRandomEquipment.RandomEquipment
 {
     internal class EntityLootHandler : IInteractionHandler, IDisposable
     {
-        public EntityLootHandler()
+        public bool Subscribed { get; private set; }
+        public EntityLootHandler(bool subsribe = true)
         {
-            EventBus.Subscribe(this);
+            if (subsribe) 
+                EventBus.Subscribe(this);
         }
 
         public void Dispose()
         {
-            EventBus.Unsubscribe(this);
+            if (Subscribed)
+                EventBus.Unsubscribe(this);
         }
 
         public void OnBeforeInteract(UnitEntityData unit, InteractionPart interaction)

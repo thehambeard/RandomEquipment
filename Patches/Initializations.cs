@@ -16,6 +16,7 @@ namespace WrathRandomEquipment.Patches
                 REModMenu.RandomEquipmentSettings.Initialize();
                 RandomEquipmentController.Initialize();
                 LootListDownloader.Download();
+                ToyBox.TryOpenMassLootPatch.Patch();
             }
         }
     }

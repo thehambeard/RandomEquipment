@@ -21,7 +21,7 @@ namespace WrathRandomEquipment.RandomEquipment
                         if (response.IsSuccessStatusCode)
                         {
                             Main.Mod.Log("Downloaded lastest LootList.json");
-                            var localPath = Path.Combine(Main.ModPath, "LootList.json");
+                            var localPath = Path.Combine(Main.ModEntry.Path, "LootList.json");
                             using (var fileStream = new FileStream(localPath, FileMode.Create))
                             {
                                 await response.Content.CopyToAsync(fileStream);

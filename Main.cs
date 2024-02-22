@@ -16,14 +16,14 @@ namespace WrathRandomEquipment
         public static LocalizationManager<DefaultLanguage> Local;
         public static ModManager<Core, Settings> Mod;
         public static MenuManager Menu;
-        public static string ModPath;
+        public static UnityModManager.ModEntry ModEntry;
 
         static bool Load(UnityModManager.ModEntry modEntry)
         {
             Local = new LocalizationManager<DefaultLanguage>();
             Mod = new ModManager<Core, Settings>();
             Menu = new MenuManager();
-            ModPath = modEntry.Path;
+            ModEntry = modEntry;
             modEntry.OnToggle = OnToggle;
 #if (DEBUG)
             modEntry.OnUnload = Unload;
