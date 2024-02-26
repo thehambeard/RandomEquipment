@@ -6,6 +6,21 @@ Key:
 * [+] Added item
 * [-] Removed item
 
+2/26/2024
+
+* [+] Mithral Dagger +2 (MithralDaggerPlus2: fbfff43b86d84c4282db1c7a8cf30754)
+* [+] Mithral Greataxe +2 (MithralGreataxePlus2: ff2fc2b16311473a84822c2468844076)
+* [+] Mithral Handaxe +2 (MithralHandaxePlus2: bb1fc8489a674c0585c3909bd262ccbf)
+* [+] Mithral Longsword +2 (MithralLongswordPlus2: 3b8a8ce9bec44f4eb82996416ed212bb)
+* [+] Mithral Rapier +2 (MithralRapierPlus2: 4f3f00c9de404493991a4e01ab40d786)
+* [+] Mithral Shortsword +2 (MithralShortswordPlus2: cf68418f179640439980397a459b0f87)
+* [+] Mithral Warhammer +2 (MithralWarhammerPlus: fbd9b36ae457429aabc84841eb23802b)
+* [-] DruchiteDoubleSwordSecondPlus3: 02e4301e0ba14db0a39a4370ec92fcd9
+* [-] DruchiteDwarvenUrgroshSecondPlus3: 3ee445ca38464e11b8f0add658ed6f90
+* [-] HeavyShieldSarenrae: a76cb1559cdc4d0f8fe953bac0629855
+* [m] Dark Life Ring (DLC5_DarkLifeRing: be863e5e51894eb0a832e75b24e71e70): CL from 1 to 1 CR from 3 to 7 Cost from 1250 to 1250 
+* [m] Druchite Sickle +2 (DruchiteSicklePlus2: d9db41f0be1d463aaf78a54e327dc776): CL from 1 to 1 CR from 3 to 8 Cost from 1600 to 1600 
+
 2/22/24 DLC 5 Items
 
 * [+] Absolute Darkness (DLC5_AbsoluteDarknessItem: 7568156f4cd94875899f1f1fc2cfb85f)

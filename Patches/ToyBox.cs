@@ -29,11 +29,14 @@ namespace WrathRandomEquipment.Patches
 
                 try
                 {
-                    var lootHelperClass = toyBox.Assembly.GetType("ToyBox.LootHelper") ?? throw new NullReferenceException();
-                    var openWindowMethod = lootHelperClass.GetMethod("OpenMassLoot", BindingFlags.Public | BindingFlags.Static) ?? throw new NullReferenceException();
                     var harmony = new Harmony($"{Main.ModEntry.Info.Id}-ToyBoxOptional");
 
+                    var lootHelperClass = toyBox.Assembly.GetType("ToyBox.LootHelper") ?? throw new NullReferenceException();
+                    var openWindowMethod = lootHelperClass.GetMethod("OpenMassLoot", BindingFlags.Public | BindingFlags.Static) ?? throw new NullReferenceException();
                     harmony.Patch(openWindowMethod, transpiler: new HarmonyMethod(typeof(TryOpenMassLootPatch), nameof(OpenMassLootTranspiler)));
+
+                    var handleZoneLootInterractionMethod = typeof(LootContextVM).GetMethod("HandleZoneLootInterraction") ?? throw new NullReferenceException();
+                    harmony.Patch(handleZoneLootInterractionMethod, transpiler: new HarmonyMethod(typeof(TryOpenMassLootPatch), nameof(HandleZoneLootInterractionTranspiler)));
                 }
                 catch (Exception ex)
                 {
@@ -57,6 +60,36 @@ namespace WrathRandomEquipment.Patches
                         handler.OnBeforeInteract(null, loot.InteractionLoot);
                         loot.InteractionLoot.IsViewed = true;
                     }
+                }
+            }
+
+            static IEnumerable<CodeInstruction> HandleZoneLootInterractionTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator iLGen)
+            {
+                var leaveZoneActionCodes = new CodeInstruction[]
+                {
+                    new(OpCodes.Ldloc_0),
+                    new(OpCodes.Ldftn),
+                    new(OpCodes.Newobj),
+                    new(OpCodes.Stloc_2)
+                };
+
+                var leaveZoneActionIndex = instructions.FindCodes(leaveZoneActionCodes);
+
+                if (leaveZoneActionIndex >= 0)
+                {
+                    var patchCodes = new CodeInstruction[]
+                    {
+                        new(OpCodes.Ldloc_1),
+                        new(OpCodes.Call,
+                            new Action<IEnumerable<LootWrapper>>(ProcessAreaRandomLoot).Method)
+                    };
+
+                    return instructions.InsertRange(leaveZoneActionIndex, patchCodes, true).Complete();
+                }
+                else
+                {
+                    Main.Mod.Error("OpenMassLootTranspiler Transpile Failed.");
+                    return instructions;
                 }
             }
 
