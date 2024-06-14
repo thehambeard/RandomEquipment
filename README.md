@@ -1,6 +1,6 @@
 ## Random Equipment 2
 
- [ModMenu 1.3.1+](https://github.com/WittleWolfie/ModMenu/releases) is required to build and required to play.
+ [ModMenu 1.3.2+](https://github.com/WittleWolfie/ModMenu/releases) is required.
 
  This a mod for Pathfinder: WOTR that will add random game loot to any container the player interacts with based on a percentage chance. The loot already inside the container is untouched by the mod and will only add to it. The loot possible is based on your level and shouldn't give anything inappropriately OP.
 

@@ -6,6 +6,112 @@ Key:
 * [+] Added item
 * [-] Removed item
 
+6/14/2024
+
+* [+] Agile Sawtooth Saber +1 (SawtoothSabreAgilePlus1: a227af015839494a9d8121e6b256d6c5)
+* [+] Agile Speed Sawtooth Saber +5 (SawtoothSabreSpeedAgilePlus5: be02693ac35a4e709497fb84bd632fdb)
+* [+] Agile Thundering Sawtooth Saber +2 (SawtoothSabreAgileThunderingPlus2: a4f2f5a72aee48709112cf23e121a4c2)
+* [+] Agile Vicious Sawtooth Saber +5 (SawtoothSabreViciousAgilePlus5: 996d0f49fdab451f9982a0f770d7782c)
+* [+] Arachnid Goggles (ArachnidGoggles: 8c655e837b9f4009a460e6fb8044a312)
+* [+] Blade of the Blood Knight (BladeOfBloodKnightFalcionItem: 59c7c75f8eaf4249a5dce59116d06ba0)
+* [+] Blade of the Crimson Moon (CrimsonMoonItem: e77bb8df912b4e98b6587b179d1bcc80)
+* [+] Boots of the Battle Herald (BootsOfTheBattleHerald: 039c98d84eba4ab58a95cf7ee1d2964a)
+* [+] Bottomless Mug (BotomlessMug: 401a40d73744474c9947a486451de7ea)
+* [+] Bracers of Slaughter (BracersOfSlaughter: 5122fe7ea5af45aba48e8f7438f3e05d)
+* [+] Cape of Feinting (CapeOfFeinting: 3b12f5f57ab14e029576f8c0d25b136a)
+* [+] Cloak of Reflections (ChromaticCloak: 6614f5a2b3004214820ad968b505a716)
+* [+] Cold Iron Sawtooth Saber (ColdIronSawtoothSabre: 45e76b1480d14d959d780f1182a6cabf)
+* [+] Corrosive Sawtooth Saber +1 (SawtoothSabreCorrosivePlus1: fe0806d557df4cbe99723d09b126de01)
+* [+] Corrosive Sawtooth Saber +2 (SawtoothSabreCorrosivePlus2: 6809552ded06494d992a46e6f2fbb3ee)
+* [+] Corset of Dire Witchcraft (CorsetOfDireWitchcraft: ded0ec6431f54b85be50a464006ac815)
+* [+] Crimson Verdict (CrimsonVerdictItem: b5bce68b0ef14639b0132bac655d47d1)
+* [+] Dagger of the Betrayer (DaggerOfTheBetrayer: 440888881c1f4ef38ce9153eacfaaa37)
+* [+] Daredevil Boots (DaredevilBoots: d6354aa44a4745088ec9bef8900e6394)
+* [+] Eyes of the Dragon (EyesOfTheDragon: c3bf24ba54024fbe8f2a682371a9fc51)
+* [+] Flaming Greatsword +3 (GreatswordMovanicDevaPlus3: ddabfb3949a24ff3b8f6ad458d7efb5d)
+* [+] Flaming Sawtooth Saber +1 (SawtoothSabreFlamingPlus1: c92eca91caf844f9a990bed7f6905a61)
+* [+] Flaming Sawtooth Saber +2 (SawtoothSabreFlamingPlus2: db1117c8d80c41fc961fb3013182ae96)
+* [+] Frost Sawtooth Saber +1 (SawtoothSabreFrostPlus1: f9e75af3041447e8ab72dbfe0c68fc3f)
+* [+] Frost Sawtooth Saber +2 (SawtoothSabreFrostPlus2: 120e1ca7473e48b98ec66127886905ea)
+* [+] Frost Shock Sawtooth Saber +1 (SawtoothSabreFrostShockPlus1: 946ccdec95484cbab9d67266d6442141)
+* [+] Gorgon Belt (GorgonBelt: a2206ab9a731411dbe5055ab48175a22)
+* [+] Grand Festival Cloak (GrandFestivalCloak: 12836afa5ce54260895c4f54d8a3bb4d)
+* [+] Greater Intensified Metamagic Rod (MetamagicRodGreaterIntensified: fd8122d61cc34463a615878dd59aee30)
+* [+] Greater Piercing Metamagic Rod (MetamagicRodGreaterPiercing: ae152f07c6494f318735eaa9c4858577)
+* [+] Hateful Ranseur (RunelordsHatefulRanseur: 63b3f2bebf0a42149c1299a14c0c16b4)
+* [+] Heartstone of the Night Hag Queen (QueenOfNightHagHeartstone: 8be02221ec8b4b0e8ff4491fc32814f1)
+* [+] Holy Elder Shocking Burst Sawtooth Saber +3 (SawtoothSabreElderChokingBurstHolyPlus3: f86a332e62fa4b719b5d38556fd6deeb)
+* [+] Holy Sawtooth Saber +2 (SawtoothSabreHolyPlus2: 3e94249fd78c467e8dfeda0106c59ff0)
+* [+] Holy Sawtooth Saber +3 (SawtoothSabreHolyPlus3: 2ecd15ccaa324269bbc636ecb98c5e97)
+* [+] Ice Guard (CrystalMaiden: ffab4231aeb3493d933364f2c7b26cde)
+* [+] Intensified Metamagic Rod (MetamagicRodNormalIntensified: a35044c76afa45c69f4baedf13ad5ac9)
+* [+] Jagged Claw (JaggedClawItem: 9245bb68ba304c29bc43427f8ef917de)
+* [+] Jester Cap (JesterCap: d3e3a641c5dd40dd971bd1c587d7f6a8)
+* [+] Keen Ghost Touch Sawtooth Saber +3 (SawtoothSabreKeenGhostTouchPlus3: 446e091c02a7483abc14c640e540cdc0)
+* [+] Keen Sawtooth Saber +1 (SawtoothSabreKeenPlus1: bfed10523de248f1923178befd580110)
+* [+] Keen Sawtooth Saber +2 (SawtoothSabreKeenPlus2: d18628267121411ca1d3320f8ddc9948)
+* [+] Keen Shock Sawtooth Saber +1 (SawtoothSabreKeenShockPlus1: 18b301b9810340ee99b703753ad804b9)
+* [+] Lesser Intensified Metamagic Rod (MetamagicRodLesserIntensified: 6f5d788ee7384e47895bc58a291eec7f)
+* [+] Lesser Piercing Metamagic Rod (MetamagicRodLesserPiercing: de51e892ce5442ba9cbc02d21262b275)
+* [+] Life Infuser (LifeInfuser: e5d3c2148c854b5ba5d56390f8fcc72c)
+* [+] Living Fortress (LivingFortress: 6c8fd3c960ce4197a3aa0e86dc3a565b)
+* [+] Mantis Favor (MantisFavorItem: 74c54cabfe3244df99870f71202fabc3)
+* [+] Mask of True Sharpness (MaskOfEllegancyItem: c2ccf69a888d4d4ab62ad60e84018a1b)
+* [+] Medallion of Demonic Disruption (MedallionOfDemonicDisruption: 96c3f59318944afeaaa003197733e02d)
+* [+] Mindmaster's Eyes (MindmastersEyes: dd245b8645dc4930af554ab700a99e43)
+* [+] Piercing Metamagic Rod (MetamagicRodNormalPiercing: b50be8b008be40199903dd0c28c6312e)
+* [+] Praying Killer (PrayingKillerItem: f3b3227cac1f472983a619bc38d8fbd3)
+* [+] Quick Punishment (QuickPunishmentItem: 38a104ecee0141b7b1f643d3c4a409f9)
+* [+] Rampant Carnage (RampantCarnageItem: 9e3c406f73c9440c9a51549067ff8412)
+* [+] Razmir's Mask (RazmirMask: 9338510a8d5c4b43b1284470b706128d)
+* [+] Razmir's Ring (RazmirRing: 1ef783f955584050972c13f9399eb9d8)
+* [+] Ring of Powerful Blood Magic (RingOfPowerfulBloodMagic: c5e9e714a758420191d0188a0d5eca08)
+* [+] Robe of Magma (RobeOfMagma: 7dca2a51b1e143cd9ab0b05aedd26ceb)
+* [+] Robe of Runes (RobeOfRunes: 24542aceda6747ad80ed9566ff715ffa)
+* [+] Robe of the Overmind (RobeOfTheOvermind: 03def2744aa54aebb034bc164d5b8a1d)
+* [+] Sawtooth Saber +1 (SawtoothSabrePlus1: 13b9e6657b26404eb0e2a683bb5b6a2c)
+* [+] Sawtooth Saber +2 (SawtoothSabrePlus2: a221aa1f5f30420bb894c72266db9a42)
+* [+] Sawtooth Saber +3 (SawtoothSabrePlus3: 4839be363dfa48cbb05ece475034e121)
+* [+] Sawtooth Saber +4 (SawtoothSabrePlus4: 4041b467c8b0442a93658273fd2570e2)
+* [+] Sawtooth Saber +5 (SawtoothSabrePlus5: 615b36d8fad64ed5bbce397f68c1b86e)
+* [+] Scarab of Protection (ScarabOfProtection: 84ee111dfdec40cb9bb782c16593d08d)
+* [+] Scroll of Winds of Vengeance (ScrollOfWindsOfVengeance: 1cec1b52030041d69b93017ceb4d97b2)
+* [+] Shock Sawtooth Saber +1 (SawtoothSabreShockPlus1: 7ee167f5a75f420fbfaa3bb1f663e214)
+* [+] Shock Sawtooth Saber +2 (SawtoothSabreShockPlus2: 876d22dc9fd24906a4c254b4a310102c)
+* [+] Silver Battleaxe +2 (SilverBattleaxePlus2: 960474308bba410e9929c35f819a2aa9)
+* [+] Silver Glaive +2 (SilverGlaivePlus2: 884c0207a43b40b1a87c472bdb8764c1)
+* [+] Silver Light Pick +2 (SilverLightPickPlus2: d2eab70b952b452eba19c06b0348d276)
+* [+] Silver Longsword +5 (SilverLongswordPlus5: 6a7ada6334b64eb4b7c872e3282cc021)
+* [+] Silver Punching Dagger +2 (SilverPunchingDaggerPlus2: fe83823456f740188cc606fb78760e07)
+* [+] Sin Mage's Staff (SinmageStaff: 19f9506b61ed4190bffc66eb0cad39de)
+* [+] Sorcerous Gown (SorceriousGown: 77c2024fba05473bb0bbcd63dd0de99f)
+* [+] Speed Sawtooth Saber +3 (SawtoothSabreSpeedPlus3: 0b08ea0673244277a4d94c869c746fde)
+* [+] Swallowtail Bracers (SwallowtailBracers: 3196e3d722594522926b4cb361be5f17)
+* [+] That Which Bathes in Blood (ThatWhoBathesInBloodItem: d2ee36d38ee9432bb96991b190e3047a)
+* [+] Tome of Ancient Perfection (TomeOfPerfection: 0574c938014f45cb82d43b90439e380f)
+* [+] Ultrathin Edge (UltraThinEdgeItem: bf3d67f806e94e8683739c5f9ce5b5a2)
+* [+] Wand of Cure Hangover (DLC6_RodOfHangoverItem: 67a05c9788664afa8ebcde577391a9d7)
+* [+] War-Kilt of Sarenrae (WarKiltOfSarenrae: 6af69da499184fe7ae0839105be416be)
+* [-] AnimatedWeapon_ElderShockLongswordItem: 583747914fb24277886e6d39451462a5
+* [-] AnimatedWeapon_FireLongswordItem: 3a83936771cb4314a6046cba25a8100d
+* [-] AnimatedWeapon_FrostLongswordItem: 1e68aed2dc294595a39816422311f297
+* [-] AnimatedWeapon_PoisonedLongswordItem: 7c30287784334774bdd0a971b5473744
+* [-] BiteGargantuanStandard6d6: aff1d5d4884d4267a4b0abe82c917204
+* [-] BladeboundBlackBladeWeapon: a5a968e98e5b4d9bb8708c85e2595de4
+* [-] DLC6_ReapersScythe: 42e64f728cfe467bb22b5b7c3f202414
+* [-] EmptyHeadEquipment: 464ef68ad5fd47008f145b6b26830622
+* [-] FinneanSawtoothSabreStage1: 8d0f8e80a0b54b02871548c6817b190c
+* [-] FinneanSawtoothSabreStage2: 77fcb6274a8847a3bf2b3a7a10b639fe
+* [-] FinneanSawtoothSabreStage3Base: e1dc7bdad79f442f9c4252e6c70bb67a
+* [-] FinneanSawtoothSabreStage3Lich: d88abbbd41c04b4a9a84240d0e649d42
+* [-] LivingGrimoireHolyBookWeapon: 690d26bcc63c4a2e912b6104d1d531e7
+* [-] RazmiryInfiltratorMask: 23c7116a5fd244169718f8228b66ec66
+* [-] RazmiryInfiltratorMaskGold: 3eef3a2e84d24db4909edb2a943dfe22
+* [-] RazmiryInfiltratorMaskSilver: a56599028493481d854dd03ccdb22877
+* [-] Tail1d2Large: c42e22dbdee84d3d9ac8fe06c1e8a54e
+* [-] WeaponForBombEmulate: 934e60c19112413aabf5d68127d108f5
+
+
 2/26/2024
 
 * [+] Mithral Dagger +2 (MithralDaggerPlus2: fbfff43b86d84c4282db1c7a8cf30754)
