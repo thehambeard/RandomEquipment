@@ -6,7 +6,7 @@ Key:
 * [-] Removed item
 
 7/19/24
-* [-] OverPoweredTestBox: 37f82ab8449ad3341af335a23a27ceba
+* [-] OverPoweredTestBow: 37f82ab8449ad3341af335a23a27ceba
 
 6/14/2024
 
