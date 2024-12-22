@@ -2,7 +2,7 @@
   "Id": "RandomEquipment",
   "DisplayName": "RandomEquipment",
   "Author": "Hambeard",
-  "Version": "2.0.9",
+  "Version": "2.0.10",
   "ManagerVersion": "0.27.14",
   "Requirements": [ "ModMenu-1.3.2" ],
   "LoadAfter": [ "0ToyBox0" ],
